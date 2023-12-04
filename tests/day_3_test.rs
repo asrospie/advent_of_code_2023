@@ -14,11 +14,11 @@ fn day_3_part_1_input_test() {
 }
 
 #[test]
-fn day_2_part_2_example_test() {
+fn day_3_part_2_example_test() {
     assert_eq!(day_3_part_2("inputs/day_3_test.txt"), 467835);
 }
 
-// #[test]
-// fn day_1_part_2_input_test() {
-//     assert_eq!(day_2_part_2("inputs/day_2_input.txt"), 67953);
-// }
+#[test]
+fn day_3_part_2_input_test() {
+    assert_eq!(day_3_part_2("inputs/day_3_input.txt"), 85010461);
+}

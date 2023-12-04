@@ -23,11 +23,11 @@ fn day_2_part_1_input_test() {
 }
 
 #[test]
-fn day_1_part_2_example_test() {
+fn day_2_part_2_example_test() {
     assert_eq!(day_2_part_2("inputs/day_2_test.txt"), 2286);
 }
 
 #[test]
-fn day_1_part_2_input_test() {
+fn day_2_part_2_input_test() {
     assert_eq!(day_2_part_2("inputs/day_2_input.txt"), 67953);
 }
