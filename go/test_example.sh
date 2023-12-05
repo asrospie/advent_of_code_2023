@@ -1,4 +1,4 @@
 #!/bin/bash
 
 go clean -testcache
-go test ./... -run TestDay5Part2
+go test ./... -short -v
