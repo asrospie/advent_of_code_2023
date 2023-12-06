@@ -61,3 +61,28 @@ func MaxSlice[T cmp.Ordered](s []T) T {
     }
     return maximum
 }
+
+func SliceContains[T comparable](s []T, e T) bool {
+    for _, a := range s {
+        if a == e {
+            return true
+        }
+    }
+    return false
+}
+
+func SumSlice[T int | float32 | float64](s []T) T {
+    var sum T
+    for _, v := range s {
+        sum += v
+    }
+    return sum
+}
+
+func ReduceSlice[T any](s []T, f func(T, T) T) T {
+    var sum T
+    for _, v := range s {
+        sum = f(sum, v)
+    }
+    return sum
+}
