@@ -2,10 +2,10 @@ package day6
 
 import (
 	"errors"
+	"fmt"
 	utils "rospierski/aocgo/pkg/aocutils"
 	"strconv"
 	"strings"
-    "fmt"
 )
 
 type BoatRace struct {
@@ -18,13 +18,21 @@ func NewBoatRace(time int, dist int) BoatRace {
 }
 
 func (b *BoatRace) PossibleWins() int {
-    sum := 0
+    start := -1
+    end := -1
     for i := 1; i < b.time; i++ {
         if i * (b.time - i) > b.dist {
-            sum += 1
+            start = i
+            break
         }
     }
-    return sum
+    for i := b.time - 1; i > 0; i-- {
+        if i * (b.time - i) > b.dist {
+            end = i
+            break
+        }
+    }
+    return end - start + 1
 }
 
 func (b *BoatRace) String() string {
@@ -45,6 +53,15 @@ func getNums(line string) ([]int, error) {
     }
 
     return times, nil
+}
+
+func getBoatRace(lines []string) (BoatRace, error) {
+    times := strings.Fields(lines[0])[1:]
+    dists := strings.Fields(lines[1])[1:]
+    t, err := strconv.Atoi(strings.Join(times, ""))
+    d, err := strconv.Atoi(strings.Join(dists, ""))
+
+    return NewBoatRace(t, d), err
 }
 
 func getBoatRaces(times []int, dists []int) []BoatRace {
@@ -70,8 +87,6 @@ func Day6Part1(filename string) (int, error) {
         return boatRace.PossibleWins()
     })
 
-    fmt.Println(possibleWins)
-
     result := utils.ReduceSlice(possibleWins, func(a int, b int) int {
         if a == 0 {
             a = 1
@@ -79,4 +94,17 @@ func Day6Part1(filename string) (int, error) {
         return a * b
     })
     return result, nil
+}
+
+func Day6Part2(filename string) (int, error) {
+    lines, err := utils.ReadFileLines(filename)
+    if err != nil {
+        return -1, err
+    }
+
+    b, err := getBoatRace(lines)
+    if err != nil {
+        return -1, err
+    }
+    return b.PossibleWins(), nil
 }
