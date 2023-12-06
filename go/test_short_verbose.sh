@@ -1,4 +1,4 @@
 #!/bin/bash
 
 go clean -testcache
-go test ./...
+go test ./... -short -v

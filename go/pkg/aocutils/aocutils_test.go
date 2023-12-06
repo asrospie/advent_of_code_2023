@@ -50,3 +50,14 @@ func TestMaxSlice(t *testing.T) {
         t.Errorf("Expected %d, got %d", expected, actual)
     }
 }
+
+func TestMinSlice(t *testing.T) {
+    input := []int{1, 2, 3, 4, 5}
+    expected := 1
+
+    actual := MinSlice(input)
+    if actual != expected {
+        t.Errorf("Expected %d, got %d", expected, actual)
+    }
+}
+
