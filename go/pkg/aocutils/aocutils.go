@@ -43,23 +43,21 @@ func Mapper[T any, U any](s []T, f func(T) U) []U {
 }
 
 func MinSlice[T cmp.Ordered](s []T) T {
-    minimum := s[0]
-    for _, v := range s {
-        if v < minimum {
-            minimum = v
+    return ReduceSlice(s, func(a, b T) T {
+        if a < b {
+            return a
         }
-    }
-    return minimum
+        return b
+    })
 }
 
 func MaxSlice[T cmp.Ordered](s []T) T {
-    maximum := s[0]
-    for _, v := range s {
-        if v > maximum {
-            maximum = v
+    return ReduceSlice(s, func(a, b T) T {
+        if a > b {
+            return a
         }
-    }
-    return maximum
+        return b
+    })
 }
 
 func SliceContains[T comparable](s []T, e T) bool {
@@ -72,17 +70,13 @@ func SliceContains[T comparable](s []T, e T) bool {
 }
 
 func SumSlice[T int | float32 | float64](s []T) T {
-    var sum T
-    for _, v := range s {
-        sum += v
-    }
-    return sum
+    return ReduceSlice(s, func(a, b T) T { return a + b })
 }
 
 func ReduceSlice[T any](s []T, f func(T, T) T) T {
-    var sum T
-    for _, v := range s {
-        sum = f(sum, v)
+    sum := s[0]
+    for i := 1; i < len(s); i++ {
+        sum = f(sum, s[i])
     }
     return sum
 }
