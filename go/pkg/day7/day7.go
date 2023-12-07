@@ -196,9 +196,7 @@ func newHandJoker(line string) (Hand, error) {
         case FULL_HOUSE:
             new_kind = FIVE_KIND
         case FOUR_KIND:
-            if joker_count == 1 {
-                new_kind = FIVE_KIND
-            } 
+            new_kind = FIVE_KIND
         default:
             new_kind = hand.kind
         }
