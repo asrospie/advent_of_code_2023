@@ -1,5 +1,5 @@
-exampleFile = "inputs/example.txt"
-inputFile = "inputs/input.txt"
+exampleFile = "inputs/example_9.txt"
+inputFile = "inputs/input_9.txt"
 
 main :: IO ()
 main = do
