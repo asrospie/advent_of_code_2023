@@ -110,13 +110,10 @@ func dirToString(dir int) string {
 }
 
 func (g *Graph) AddEdge(v1 *Vertex, v2 *Vertex, search_dir int) {
-    fmt.Println("Adding edge")
     // check if can connect
     if !(v2.CanConnectDestination(search_dir) && v1.CanConnectSource(search_dir)) {
-        fmt.Printf("Cannot connect %s to %s from %s\n", typeToString(v1.Type), typeToString(v2.Type), dirToString(search_dir))
         return
     }
-    fmt.Printf("Connecting %s to %s from %s\n", typeToString(v1.Type), typeToString(v2.Type), dirToString(search_dir))
     // check if edge alread exists
     for _, e := range v1.Edges {
         if reflect.DeepEqual(e.Vertex, v2) {
@@ -140,21 +137,14 @@ func (g *Graph) FindFurthestVertexDistance(v *Vertex) int {
     prev := v
     start_v := g.GetStartingVertex()
     for reflect.DeepEqual(current, start_v) == false {
-        fmt.Println("==================================")
-        fmt.Printf("Current: %v, Prev: %v\n", current.String(), prev.String())
         next := current.Edges[0].Vertex
-        fmt.Printf("Next: %v\n", next.String())
         next_is_prev := next.IsEqual(prev)
-        fmt.Println(next_is_prev)
         if next_is_prev {
             next = current.Edges[1].Vertex
-            fmt.Printf("Next: %v\n", next.String())
         }
-        fmt.Println(next.String())
         prev = current
         current = next
         counter++
-        fmt.Println("==================================")
     }
     
     if counter % 2 == 0 {
@@ -277,12 +267,132 @@ func Day10Part1(filename string) (int, error) {
 
     grid := getCharGrid(lines)
     g := buildGraph(grid)
-    fmt.Println(g.String())
     v := g.GetStartingVertex()
     return g.FindFurthestVertexDistance(v), nil
-    // return -1, nil
+}
+
+func walkGraph(g *Graph, start *Vertex, grid *[][]rune) {
+    // find furthest vertex
+    current := start.Edges[0].Vertex
+    prev := start
+    start_v := g.GetStartingVertex()
+    (*grid)[current.Y][current.X] = 'X'
+    for reflect.DeepEqual(current, start_v) == false {
+        next := current.Edges[0].Vertex
+        next_is_prev := next.IsEqual(prev)
+        if next_is_prev {
+            next = current.Edges[1].Vertex
+        }
+        prev = current
+        current = next
+        switch current.Type {
+        case VERTICAL:
+            fallthrough
+        case BOTTOM_RIGHT_BEND:
+            fallthrough
+        case BOTTOM_LEFT_BEND:
+            (*grid)[current.Y][current.X] = 'W'
+        default:
+            (*grid)[current.Y][current.X] = 'X'
+        }
+    }
+    for y, row := range *grid {
+        for x, v := range row {
+            if v == 'X' || v == 'W' {
+                continue
+            }
+            (*grid)[y][x] = '.'
+        }
+    }
+}
+
+func scanForX(x, y int, grid *[][]rune) {
+    min_x := 0 
+    max_x := len((*grid)[0])
+    min_y := 0
+    max_y := len(*grid)
+
+    // look right
+    x_hit := 0
+    for i := x; i < max_x; i++ {
+        if (*grid)[y][i] == 'X' {
+            x_hit++
+            break
+        }
+    }
+    // look left
+    for i := x; i >= min_x; i-- {
+        if (*grid)[y][i] == 'X' {
+            x_hit++
+            break
+        }
+    }
+    // look up
+    for i := y; i >= min_y; i-- {
+        if (*grid)[i][x] == 'X' {
+            x_hit++
+            break
+        }
+    }
+    // look down
+    for i := y; i < max_y; i++ {
+        if (*grid)[i][x] == 'X' {
+            x_hit++
+            break
+        }
+    }
+    if x_hit == 4 {
+        (*grid)[y][x] = 'I'
+        return
+    }
+    (*grid)[y][x] = 'O'
+}
+
+func isInGrid(x, y int, grid *[][]rune) bool {
+    max_x := len((*grid)[0])
+
+    x_hit := 0
+    for i := x; i < max_x; i++ {
+        if (*grid)[y][i] == 'W' {
+            x_hit++
+            // if i + 1 == max_x {
+            //     x_hit++
+            // }
+        }
+    }
+    return x_hit % 2 == 1
 }
 
 func Day10Part2(filename string) (int, error) {
-    return -1, nil
+    lines, err := utils.ReadFileLines(filename)
+    if err != nil {
+        return -1, err
+    }
+
+    grid := getCharGrid(lines)
+    g := buildGraph(grid)
+    walkGraph(g, g.GetStartingVertex(), &grid)
+    for y, row := range grid {
+        for x, v := range row {
+            if v == 'X' || v == 'W' {
+                continue
+            }
+            if isInGrid(x, y, &grid) {
+                grid[y][x] = 'I'
+                continue
+            }
+            grid[y][x] = 'O'
+        }
+    }
+
+    sum := 0
+    for _, row := range grid {
+        for _, v := range row {
+            if v == 'I' {
+                sum++
+            }
+        }
+    }
+
+    return sum, nil
 }
