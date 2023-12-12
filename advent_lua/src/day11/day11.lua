@@ -114,7 +114,8 @@ end
 local M = {}
 
 M.Day11 = function(filename, expansion_factor)
-    local contents = getFileContents(filename)
+    local utils = require('src.utils')
+    local contents = utils.read_file(filename)
     if not contents then
         return
     end
