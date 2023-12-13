@@ -41,6 +41,19 @@ cd ..
 
 # create programming files
 
+if [ $DIR = "python" ]; then
+    if [ ! -f "day${DAY}.py" ]; then
+        touch day${DAY}.py
+        echo "def part_one(filename):" >> day${DAY}.py
+        echo "    pass" >> day${DAY}.py
+        echo "" >> day${DAY}.py
+        echo "def part_two(filename):" >> day${DAY}.py
+        echo "    pass" >> day${DAY}.py
+    else
+        echo "File day${DAY}.py already exists"
+    fi
+fi
+
 if [ $DIR = "go" ]; then
     if [ ! -d "pkg" ]; then
         mkdir pkg
