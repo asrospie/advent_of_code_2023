@@ -97,8 +97,8 @@ def main():
     print(f'Part One Example: {part_one(example)}')
     print(f'Part One Input: {part_one(test)}')
 
-    print(f'Part Two Example:\t{part_two(example)}')
-    print(f'Part Two Input:\t{part_two(test)}')
+    print(f'Part Two Example: {part_two(example)}')
+    print(f'Part Two Input: {part_two(test)}')
 
 if __name__ == '__main__':
     main()
