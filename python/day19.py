@@ -1,4 +1,5 @@
 import re
+import json
 
 
 def part_access(part, value):
@@ -71,11 +72,75 @@ def part_one(filename):
     return acc
 
 
+def find_ranges(workflows, ranges, state = 'in'):
+    if state == 'R':
+        return 0
+    if state == 'A':
+        acc = 1
+        for low, high in ranges.values():
+            acc *= (high - low + 1)
+        return acc
+
+    acc = 0
+
+    rules = workflows[state]
+    fallback = rules[-1][3]
+    broke = False
+    for cat, op, value, next_state in rules[:-1]:
+        low, high = ranges[cat]
+        if op == '<':
+            accepted = (low, value - 1)
+            rejected = (value, high)
+        else:
+            accepted = (value + 1, high)
+            rejected = (low, value)
+        if accepted[0] <= accepted[1]:
+            ranges_copy = dict(ranges)
+            ranges_copy[cat] = accepted
+            acc += find_ranges(workflows, ranges_copy, next_state)
+        if rejected[0] <= rejected[1]:
+            ranges = dict(ranges)
+            ranges[cat] = rejected
+        else:
+            broke = True
+            break
+
+    if not broke:
+        acc += find_ranges(workflows, ranges, fallback)
+
+    return acc
+
+
 def part_two(filename):
     workflows_str, _ = parse_input(filename)
     workflows = get_workflows(workflows_str)
 
-    return 0
+    new_workflows = {}
+    accepted_keys = []
+    for k, v in workflows.items():
+        if 'A' in v:
+            accepted_keys.append(k)
+        rules_split = v.split(',')
+        new_rules = []
+        for r in rules_split:
+            if ':' not in r:
+                new_rules.append((None, None, None, r))
+                continue
+            test, next_state = r.split(':')
+            regex = r'(\w+)([<>])(\d+)'
+            cat, op, value = re.findall(regex, test)[0]
+            new_rules.append((cat, op, int(value), next_state))
+        new_workflows[k] = new_rules
+
+    ranges = {
+        'x': (1, 4000),
+        'm': (1, 4000),
+        'a': (1, 4000),
+        's': (1, 4000),
+    }
+    total = find_ranges(new_workflows, ranges)
+
+    return total
 
 
 def parse_input(filename):
@@ -98,7 +163,7 @@ def main():
     print(f'Part One Input: {part_one(test)}')
 
     print(f'Part Two Example: {part_two(example)}')
-    # print(f'Part Two Input: {part_two(test)}')
+    print(f'Part Two Input: {part_two(test)}')
 
 
 if __name__ == '__main__':
