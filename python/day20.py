@@ -1,5 +1,5 @@
 import re
-import json
+import math
 from enum import Enum
 
 # Create Enum
@@ -92,29 +92,34 @@ def part_two(filename):
     lines = parse_input(filename)
 
     config = gather_config(lines)
-    low_pulses = 0
-    high_pulses = 0
-    
 
     btn_presses = 0
     rx_found = False
+
+    (feed,) = [k for k, v in config.items() if 'rx' in v.outputs]
+    seen = {tag: 0 for tag, v in config.items() if feed in v.outputs}
+    cycle_lengths = {}
+
     while not rx_found:
         queue = [(Pulse.LOW, 'broadcaster', 'btn')]
         btn_presses += 1
-        print(f'btn presses: {btn_presses}')
         while len(queue) > 0:
             pulse, tag, prev = queue.pop(0)
-            if pulse == Pulse.LOW:
-                low_pulses += 1
-            elif pulse == Pulse.HIGH:
-                high_pulses += 1
-
-            if tag == 'rx' and pulse == Pulse.LOW:
-                rx_found = True
-                break
 
             if tag not in config:
                 continue
+
+            if tag == feed and pulse == Pulse.HIGH:
+                seen[prev] += 1
+
+                if prev not in cycle_lengths:
+                    cycle_lengths[prev] = btn_presses
+
+                if all(seen.values()):
+                    acc = 1
+                    for cycle_length in cycle_lengths.values():
+                        acc = acc * cycle_length // math.gcd(cycle_length, acc)
+                    return acc
 
             send_pulse = pulse
             module = config[tag]
@@ -131,7 +136,7 @@ def part_two(filename):
             for output in outputs:
                 queue.append((send_pulse, output, tag))
 
-    return low_pulses * high_pulses
+    return btn_presses
 
 
 def gather_config(lines):
@@ -171,12 +176,10 @@ def main():
     example_two = './inputs/day_20_example_2.txt'
     test = './inputs/day_20_input.txt'
 
-    # print(f'Part One Example 1: {part_one(example_one)}')
-    # print(f'Part One Example 2: {part_one(example_two)}')
-    # print(f'Part One Input: {part_one(test)}')
+    print(f'Part One Example 1: {part_one(example_one)}')
+    print(f'Part One Example 2: {part_one(example_two)}')
+    print(f'Part One Input: {part_one(test)}')
 
-    # print(f'Part Two Example 1: {part_two(example_one)}')
-    # print(f'Part Two Example 2: {part_two(example_two)}')
     print(f'Part Two Input: {part_two(test)}')
 
 
