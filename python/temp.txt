@@ -1,0 +1,1572 @@
+0 :: 234 {<Brick 728>} set()
+1 :: 234 {<Brick 728>} set()
+2 :: 728 {<Brick 978>, <Brick 800>} {<Brick 234>}
+3 :: 800 {<Brick 1312>, <Brick 119>} {<Brick 728>}
+3 :: 978 {<Brick 1312>, <Brick 92>, <Brick 242>} {<Brick 728>}
+4 :: 1312 {<Brick 562>} {<Brick 978>, <Brick 800>}
+4 :: 92 {<Brick 1380>} {<Brick 978>}
+4 :: 242 {<Brick 839>, <Brick 803>} {<Brick 978>}
+4 :: 119 {<Brick 741>} {<Brick 800>}
+5 :: 562 {<Brick 1150>} {<Brick 1312>}
+5 :: 803 {<Brick 1150>} {<Brick 242>}
+5 :: 839 {<Brick 816>, <Brick 1199>} {<Brick 242>}
+5 :: 1380 {<Brick 501>, <Brick 679>} {<Brick 92>}
+5 :: 741 {<Brick 1189>} {<Brick 119>}
+6 :: 679 set() {<Brick 1380>}
+6 :: 816 {<Brick 276>, <Brick 1219>} {<Brick 839>}
+6 :: 1150 {<Brick 235>} {<Brick 562>, <Brick 803>}
+6 :: 501 {<Brick 60>, <Brick 304>, <Brick 1368>} {<Brick 1380>}
+6 :: 1199 {<Brick 622>, <Brick 1219>} {<Brick 839>}
+6 :: 1189 set() {<Brick 741>}
+7 :: 235 {<Brick 481>} {<Brick 1150>}
+7 :: 60 {<Brick 782>} {<Brick 501>}
+7 :: 276 {<Brick 84>} {<Brick 816>}
+7 :: 304 {<Brick 987>, <Brick 84>} {<Brick 501>}
+7 :: 1219 set() {<Brick 816>, <Brick 1199>}
+7 :: 622 set() {<Brick 1199>}
+7 :: 1368 set() {<Brick 501>}
+8 :: 782 {<Brick 446>} {<Brick 60>}
+8 :: 987 {<Brick 1224>, <Brick 1275>} {<Brick 304>}
+8 :: 481 set() {<Brick 235>}
+8 :: 84 {<Brick 313>, <Brick 134>} {<Brick 276>, <Brick 304>}
+9 :: 1275 set() {<Brick 987>}
+9 :: 446 {<Brick 1160>, <Brick 577>} {<Brick 782>}
+9 :: 1224 {<Brick 306>} {<Brick 987>}
+9 :: 134 {<Brick 618>} {<Brick 84>}
+9 :: 313 {<Brick 797>} {<Brick 84>}
+10 :: 1160 {<Brick 1014>, <Brick 1331>, <Brick 512>} {<Brick 446>}
+10 :: 306 {<Brick 1268>, <Brick 58>} {<Brick 1224>}
+10 :: 577 {<Brick 875>} {<Brick 446>}
+10 :: 797 {<Brick 1216>, <Brick 867>} {<Brick 313>}
+10 :: 618 {<Brick 1196>, <Brick 1369>} {<Brick 134>}
+11 :: 512 {<Brick 531>} {<Brick 1160>}
+11 :: 58 {<Brick 382>, <Brick 723>} {<Brick 306>}
+11 :: 875 set() {<Brick 577>}
+11 :: 1014 {<Brick 799>} {<Brick 1160>}
+11 :: 1331 {<Brick 1186>} {<Brick 1160>}
+11 :: 1268 set() {<Brick 306>}
+11 :: 1216 {<Brick 1210>} {<Brick 797>}
+11 :: 1369 set() {<Brick 618>}
+11 :: 867 {<Brick 561>} {<Brick 797>}
+11 :: 1196 set() {<Brick 618>}
+12 :: 531 {<Brick 832>} {<Brick 512>}
+12 :: 723 {<Brick 1338>} {<Brick 58>}
+12 :: 799 {<Brick 967>} {<Brick 1014>}
+12 :: 382 {<Brick 198>} {<Brick 58>}
+12 :: 1186 {<Brick 368>, <Brick 1010>} {<Brick 1331>}
+12 :: 1196 set() {<Brick 618>}
+12 :: 1210 set() {<Brick 1216>}
+12 :: 561 {<Brick 135>} {<Brick 867>}
+13 :: 832 {<Brick 1028>} {<Brick 531>}
+13 :: 1338 {<Brick 1025>} {<Brick 723>}
+13 :: 198 {<Brick 1112>} {<Brick 382>}
+13 :: 967 {<Brick 1050>} {<Brick 799>}
+13 :: 1010 {<Brick 1379>} {<Brick 1186>}
+13 :: 368 {<Brick 5>, <Brick 1112>} {<Brick 1186>}
+13 :: 1196 set() {<Brick 618>}
+13 :: 135 {<Brick 487>} {<Brick 561>}
+14 :: 1010 {<Brick 1379>} {<Brick 1186>}
+14 :: 1028 set() {<Brick 832>}
+14 :: 1050 {<Brick 1120>} {<Brick 967>}
+14 :: 5 {<Brick 1387>} {<Brick 368>}
+14 :: 1025 {<Brick 610>, <Brick 747>} {<Brick 1338>}
+14 :: 1112 {<Brick 430>} {<Brick 368>, <Brick 198>}
+14 :: 487 {<Brick 1197>} {<Brick 135>}
+15 :: 1028 set() {<Brick 832>}
+15 :: 610 {<Brick 114>, <Brick 1054>} {<Brick 1025>}
+15 :: 747 {<Brick 792>} {<Brick 1025>}
+15 :: 1120 set() {<Brick 1050>}
+15 :: 1379 set() {<Brick 1010>}
+15 :: 430 {<Brick 629>} {<Brick 1112>}
+15 :: 1387 {<Brick 540>, <Brick 353>} {<Brick 5>}
+15 :: 1197 {<Brick 469>} {<Brick 487>}
+16 :: 1028 set() {<Brick 832>}
+16 :: 430 {<Brick 629>} {<Brick 1112>}
+16 :: 1054 {<Brick 55>, <Brick 1289>} {<Brick 610>}
+16 :: 792 {<Brick 491>} {<Brick 747>}
+16 :: 114 set() {<Brick 610>}
+16 :: 353 set() {<Brick 1387>}
+16 :: 540 {<Brick 1153>, <Brick 364>, <Brick 729>} {<Brick 1387>}
+16 :: 469 {<Brick 518>, <Brick 419>} {<Brick 1197>}
+17 :: 430 {<Brick 629>} {<Brick 1112>}
+17 :: 1289 {<Brick 381>} {<Brick 1054>}
+17 :: 55 {<Brick 404>} {<Brick 1054>}
+17 :: 491 {<Brick 273>, <Brick 1074>} {<Brick 792>}
+17 :: 364 set() {<Brick 540>}
+17 :: 1153 {<Brick 253>} {<Brick 540>}
+17 :: 729 set() {<Brick 540>}
+17 :: 419 {<Brick 1264>, <Brick 1097>, <Brick 913>} {<Brick 469>}
+17 :: 518 set() {<Brick 469>}
+18 :: 430 {<Brick 629>} {<Brick 1112>}
+18 :: 1289 {<Brick 381>} {<Brick 1054>}
+18 :: 273 {<Brick 1096>, <Brick 749>} {<Brick 491>}
+18 :: 404 {<Brick 499>} {<Brick 55>}
+18 :: 1074 {<Brick 49>} {<Brick 491>}
+18 :: 1153 {<Brick 253>} {<Brick 540>}
+18 :: 913 {<Brick 259>, <Brick 1283>, <Brick 647>} {<Brick 419>}
+18 :: 1097 {<Brick 853>} {<Brick 419>}
+18 :: 1264 set() {<Brick 419>}
+19 :: 1289 {<Brick 381>} {<Brick 1054>}
+19 :: 1096 {<Brick 814>, <Brick 411>} {<Brick 273>}
+19 :: 629 {<Brick 906>} {<Brick 430>}
+19 :: 749 {<Brick 1352>, <Brick 86>} {<Brick 273>}
+19 :: 49 {<Brick 132>, <Brick 450>} {<Brick 1074>}
+19 :: 499 {<Brick 107>} {<Brick 404>}
+19 :: 1153 {<Brick 253>} {<Brick 540>}
+19 :: 259 set() {<Brick 913>}
+19 :: 647 {<Brick 116>} {<Brick 913>}
+19 :: 853 set() {<Brick 1097>}
+19 :: 1283 set() {<Brick 913>}
+20 :: 1289 {<Brick 381>} {<Brick 1054>}
+20 :: 814 set() {<Brick 1096>}
+20 :: 86 set() {<Brick 749>}
+20 :: 411 set() {<Brick 1096>}
+20 :: 450 {<Brick 1427>, <Brick 991>} {<Brick 49>}
+20 :: 107 {<Brick 644>} {<Brick 499>}
+20 :: 906 {<Brick 56>} {<Brick 629>}
+20 :: 1352 {<Brick 732>, <Brick 1397>} {<Brick 749>}
+20 :: 132 {<Brick 868>} {<Brick 49>}
+20 :: 253 set() {<Brick 1153>}
+20 :: 1283 set() {<Brick 913>}
+20 :: 116 {<Brick 413>} {<Brick 647>}
+21 :: 381 {<Brick 1048>} {<Brick 1289>}
+21 :: 906 {<Brick 56>} {<Brick 629>}
+21 :: 991 {<Brick 564>, <Brick 673>} {<Brick 450>}
+21 :: 1427 {<Brick 564>, <Brick 780>, <Brick 673>} {<Brick 450>}
+21 :: 732 {<Brick 212>} {<Brick 1352>}
+21 :: 868 {<Brick 780>, <Brick 523>} {<Brick 132>}
+21 :: 1397 {<Brick 506>} {<Brick 1352>}
+21 :: 644 {<Brick 1232>} {<Brick 107>}
+21 :: 1283 set() {<Brick 913>}
+21 :: 413 {<Brick 460>, <Brick 763>, <Brick 219>} {<Brick 116>}
+22 :: 1048 {<Brick 1265>, <Brick 509>} {<Brick 381>}
+22 :: 906 {<Brick 56>} {<Brick 629>}
+22 :: 564 {<Brick 1163>} {<Brick 1427>, <Brick 991>}
+22 :: 673 {<Brick 1218>} {<Brick 1427>, <Brick 991>}
+22 :: 780 set() {<Brick 1427>, <Brick 868>}
+22 :: 212 set() {<Brick 732>}
+22 :: 523 {<Brick 844>} {<Brick 868>}
+22 :: 506 {<Brick 551>} {<Brick 1397>}
+22 :: 1232 {<Brick 1052>} {<Brick 644>}
+22 :: 219 {<Brick 687>} {<Brick 413>}
+22 :: 460 {<Brick 1052>, <Brick 963>} {<Brick 413>}
+22 :: 763 set() {<Brick 413>}
+23 :: 1265 {<Brick 696>, <Brick 1119>} {<Brick 1048>}
+23 :: 509 {<Brick 1311>} {<Brick 1048>}
+23 :: 56 {<Brick 696>, <Brick 774>} {<Brick 906>}
+23 :: 1163 set() {<Brick 564>}
+23 :: 844 {<Brick 1024>, <Brick 774>, <Brick 542>} {<Brick 523>}
+23 :: 1218 {<Brick 598>} {<Brick 673>}
+23 :: 551 {<Brick 1281>} {<Brick 506>}
+23 :: 219 {<Brick 687>} {<Brick 413>}
+23 :: 763 set() {<Brick 413>}
+23 :: 963 {<Brick 1337>, <Brick 370>} {<Brick 460>}
+23 :: 1052 set() {<Brick 460>, <Brick 1232>}
+24 :: 1119 {<Brick 1434>, <Brick 1415>} {<Brick 1265>}
+24 :: 1311 set() {<Brick 509>}
+24 :: 696 {<Brick 1434>, <Brick 1415>} {<Brick 1265>, <Brick 56>}
+24 :: 1163 set() {<Brick 564>}
+24 :: 542 {<Brick 89>} {<Brick 844>}
+24 :: 598 {<Brick 683>} {<Brick 1218>}
+24 :: 774 {<Brick 53>, <Brick 707>} {<Brick 844>, <Brick 56>}
+24 :: 1024 set() {<Brick 844>}
+24 :: 551 {<Brick 1281>} {<Brick 506>}
+24 :: 219 {<Brick 687>} {<Brick 413>}
+24 :: 763 set() {<Brick 413>}
+24 :: 1337 {<Brick 174>, <Brick 1027>} {<Brick 963>}
+24 :: 370 {<Brick 897>, <Brick 1027>} {<Brick 963>}
+25 :: 1163 set() {<Brick 564>}
+25 :: 1415 set() {<Brick 696>, <Brick 1119>}
+25 :: 1434 {<Brick 526>} {<Brick 696>, <Brick 1119>}
+25 :: 598 {<Brick 683>} {<Brick 1218>}
+25 :: 551 {<Brick 1281>} {<Brick 506>}
+25 :: 53 {<Brick 674>, <Brick 1395>} {<Brick 774>}
+25 :: 89 {<Brick 1408>} {<Brick 542>}
+25 :: 707 {<Brick 634>} {<Brick 774>}
+25 :: 763 set() {<Brick 413>}
+25 :: 687 {<Brick 57>} {<Brick 219>}
+25 :: 174 {<Brick 874>} {<Brick 1337>}
+25 :: 897 {<Brick 130>} {<Brick 370>}
+25 :: 1027 {<Brick 1142>} {<Brick 1337>, <Brick 370>}
+26 :: 526 {<Brick 1169>} {<Brick 1434>}
+26 :: 598 {<Brick 683>} {<Brick 1218>}
+26 :: 551 {<Brick 1281>} {<Brick 506>}
+26 :: 1408 set() {<Brick 89>}
+26 :: 674 set() {<Brick 53>}
+26 :: 1395 set() {<Brick 53>}
+26 :: 634 {<Brick 67>} {<Brick 707>}
+26 :: 57 {<Brick 834>} {<Brick 687>}
+26 :: 874 set() {<Brick 174>}
+26 :: 130 set() {<Brick 897>}
+26 :: 1142 set() {<Brick 1027>}
+27 :: 1169 set() {<Brick 526>}
+27 :: 683 {<Brick 917>, <Brick 533>, <Brick 87>} {<Brick 598>}
+27 :: 1408 set() {<Brick 89>}
+27 :: 1281 {<Brick 226>} {<Brick 551>}
+27 :: 67 {<Brick 652>} {<Brick 634>}
+27 :: 834 {<Brick 628>, <Brick 1393>, <Brick 291>} {<Brick 57>}
+27 :: 874 set() {<Brick 174>}
+28 :: 533 {<Brick 14>, <Brick 907>} {<Brick 683>}
+28 :: 1408 set() {<Brick 89>}
+28 :: 87 {<Brick 188>} {<Brick 683>}
+28 :: 917 {<Brick 1001>} {<Brick 683>}
+28 :: 226 {<Brick 262>} {<Brick 1281>}
+28 :: 652 set() {<Brick 67>}
+28 :: 874 set() {<Brick 174>}
+28 :: 291 set() {<Brick 834>}
+28 :: 628 {<Brick 1394>, <Brick 287>} {<Brick 834>}
+28 :: 1393 {<Brick 856>} {<Brick 834>}
+29 :: 14 {<Brick 15>} {<Brick 533>}
+29 :: 907 {<Brick 230>, <Brick 477>, <Brick 633>} {<Brick 533>}
+29 :: 188 {<Brick 924>, <Brick 477>} {<Brick 87>}
+29 :: 1001 {<Brick 1241>} {<Brick 917>}
+29 :: 226 {<Brick 262>} {<Brick 1281>}
+29 :: 287 {<Brick 231>} {<Brick 628>}
+29 :: 856 {<Brick 1267>} {<Brick 1393>}
+29 :: 1394 {<Brick 1254>} {<Brick 628>}
+30 :: 230 {<Brick 1294>, <Brick 16>} {<Brick 907>}
+30 :: 633 {<Brick 262>} {<Brick 907>}
+30 :: 1241 {<Brick 445>, <Brick 1137>} {<Brick 1001>}
+30 :: 226 {<Brick 262>} {<Brick 1281>}
+30 :: 477 {<Brick 889>, <Brick 754>} {<Brick 188>, <Brick 907>}
+30 :: 924 {<Brick 317>} {<Brick 188>}
+30 :: 15 set() {<Brick 14>}
+30 :: 231 set() {<Brick 287>}
+30 :: 1267 set() {<Brick 856>}
+30 :: 1254 set() {<Brick 1394>}
+31 :: 1294 {<Brick 1164>} {<Brick 230>}
+31 :: 16 {<Brick 639>} {<Brick 230>}
+31 :: 924 {<Brick 317>} {<Brick 188>}
+31 :: 754 {<Brick 708>} {<Brick 477>}
+31 :: 1137 {<Brick 392>, <Brick 1067>} {<Brick 1241>}
+31 :: 445 {<Brick 1321>, <Brick 1215>} {<Brick 1241>}
+31 :: 262 {<Brick 492>, <Brick 1053>} {<Brick 633>, <Brick 226>}
+31 :: 889 {<Brick 1414>} {<Brick 477>}
+32 :: 924 {<Brick 317>} {<Brick 188>}
+32 :: 1164 {<Brick 1184>, <Brick 448>} {<Brick 1294>}
+32 :: 639 {<Brick 932>, <Brick 755>, <Brick 448>} {<Brick 16>}
+32 :: 392 {<Brick 498>} {<Brick 1137>}
+32 :: 708 {<Brick 1228>} {<Brick 754>}
+32 :: 1067 {<Brick 1341>} {<Brick 1137>}
+32 :: 1215 {<Brick 26>} {<Brick 445>}
+32 :: 1414 {<Brick 923>, <Brick 115>} {<Brick 889>}
+32 :: 492 set() {<Brick 262>}
+32 :: 1321 {<Brick 921>, <Brick 1255>} {<Brick 445>}
+32 :: 1053 {<Brick 755>, <Brick 932>, <Brick 905>} {<Brick 262>}
+33 :: 1184 {<Brick 1070>} {<Brick 1164>}
+33 :: 448 {<Brick 1443>, <Brick 1344>} {<Brick 1164>, <Brick 639>}
+33 :: 317 {<Brick 739>} {<Brick 924>}
+33 :: 498 set() {<Brick 392>}
+33 :: 1228 {<Brick 120>, <Brick 739>} {<Brick 708>}
+33 :: 26 set() {<Brick 1215>}
+33 :: 923 set() {<Brick 1414>}
+33 :: 1341 {<Brick 649>} {<Brick 1067>}
+33 :: 115 set() {<Brick 1414>}
+33 :: 755 set() {<Brick 1053>, <Brick 639>}
+33 :: 905 {<Brick 825>, <Brick 778>} {<Brick 1053>}
+33 :: 921 {<Brick 421>} {<Brick 1321>}
+33 :: 1255 set() {<Brick 1321>}
+33 :: 932 {<Brick 1424>, <Brick 1013>} {<Brick 1053>, <Brick 639>}
+34 :: 1184 {<Brick 1070>} {<Brick 1164>}
+34 :: 1344 {<Brick 1088>} {<Brick 448>}
+34 :: 498 set() {<Brick 392>}
+34 :: 923 set() {<Brick 1414>}
+34 :: 1443 {<Brick 631>, <Brick 9>} {<Brick 448>}
+34 :: 739 {<Brick 655>} {<Brick 1228>, <Brick 317>}
+34 :: 1255 set() {<Brick 1321>}
+34 :: 120 {<Brick 941>} {<Brick 1228>}
+34 :: 421 {<Brick 1194>} {<Brick 921>}
+34 :: 778 {<Brick 440>} {<Brick 905>}
+34 :: 649 set() {<Brick 1341>}
+34 :: 1424 set() {<Brick 932>}
+34 :: 825 {<Brick 817>, <Brick 1363>} {<Brick 905>}
+34 :: 1013 {<Brick 1357>, <Brick 646>} {<Brick 932>}
+35 :: 1184 {<Brick 1070>} {<Brick 1164>}
+35 :: 498 set() {<Brick 392>}
+35 :: 1088 set() {<Brick 1344>}
+35 :: 631 {<Brick 1046>} {<Brick 1443>}
+35 :: 9 {<Brick 1136>} {<Brick 1443>}
+35 :: 440 {<Brick 1002>, <Brick 1009>, <Brick 163>} {<Brick 778>}
+35 :: 655 {<Brick 149>} {<Brick 739>}
+35 :: 941 {<Brick 869>, <Brick 597>} {<Brick 120>}
+35 :: 1424 set() {<Brick 932>}
+35 :: 1194 set() {<Brick 421>}
+35 :: 817 set() {<Brick 825>}
+35 :: 646 set() {<Brick 1013>}
+35 :: 1357 {<Brick 1009>} {<Brick 1013>}
+35 :: 1363 set() {<Brick 825>}
+36 :: 1184 {<Brick 1070>} {<Brick 1164>}
+36 :: 1046 set() {<Brick 631>}
+36 :: 597 set() {<Brick 941>}
+36 :: 1002 {<Brick 1005>, <Brick 458>} {<Brick 440>}
+36 :: 149 set() {<Brick 655>}
+36 :: 869 {<Brick 190>, <Brick 695>} {<Brick 941>}
+36 :: 1136 {<Brick 356>, <Brick 837>} {<Brick 9>}
+36 :: 1363 set() {<Brick 825>}
+36 :: 163 {<Brick 458>} {<Brick 440>}
+36 :: 1009 set() {<Brick 440>, <Brick 1357>}
+37 :: 1046 set() {<Brick 631>}
+37 :: 1070 {<Brick 1140>, <Brick 651>} {<Brick 1184>}
+37 :: 597 set() {<Brick 941>}
+37 :: 1005 {<Brick 670>} {<Brick 1002>}
+37 :: 190 set() {<Brick 869>}
+37 :: 1363 set() {<Brick 825>}
+37 :: 837 set() {<Brick 1136>}
+37 :: 356 {<Brick 733>, <Brick 380>} {<Brick 1136>}
+37 :: 695 set() {<Brick 869>}
+37 :: 458 {<Brick 593>} {<Brick 1002>, <Brick 163>}
+38 :: 1046 set() {<Brick 631>}
+38 :: 651 {<Brick 201>} {<Brick 1070>}
+38 :: 597 set() {<Brick 941>}
+38 :: 1140 {<Brick 1406>, <Brick 773>} {<Brick 1070>}
+38 :: 190 set() {<Brick 869>}
+38 :: 670 {<Brick 580>} {<Brick 1005>}
+38 :: 1363 set() {<Brick 825>}
+38 :: 733 {<Brick 775>} {<Brick 356>}
+38 :: 380 {<Brick 599>} {<Brick 356>}
+38 :: 593 set() {<Brick 458>}
+39 :: 1046 set() {<Brick 631>}
+39 :: 201 {<Brick 64>, <Brick 402>, <Brick 1403>} {<Brick 651>}
+39 :: 597 set() {<Brick 941>}
+39 :: 190 set() {<Brick 869>}
+39 :: 773 {<Brick 444>} {<Brick 1140>}
+39 :: 1406 {<Brick 600>, <Brick 558>, <Brick 692>} {<Brick 1140>}
+39 :: 580 set() {<Brick 670>}
+39 :: 775 {<Brick 88>} {<Brick 733>}
+39 :: 599 set() {<Brick 380>}
+40 :: 402 set() {<Brick 201>}
+40 :: 190 set() {<Brick 869>}
+40 :: 444 {<Brick 1225>} {<Brick 773>}
+40 :: 64 {<Brick 547>, <Brick 1362>} {<Brick 201>}
+40 :: 600 {<Brick 1174>} {<Brick 1406>}
+40 :: 692 {<Brick 1091>, <Brick 969>} {<Brick 1406>}
+40 :: 775 {<Brick 88>} {<Brick 733>}
+40 :: 1403 {<Brick 91>, <Brick 568>} {<Brick 201>}
+40 :: 558 set() {<Brick 1406>}
+41 :: 444 {<Brick 1225>} {<Brick 773>}
+41 :: 547 {<Brick 320>, <Brick 933>} {<Brick 64>}
+41 :: 969 {<Brick 1381>, <Brick 935>} {<Brick 692>}
+41 :: 91 {<Brick 220>} {<Brick 1403>}
+41 :: 568 {<Brick 470>, <Brick 282>} {<Brick 1403>}
+41 :: 1091 {<Brick 1381>, <Brick 514>} {<Brick 692>}
+41 :: 1174 set() {<Brick 600>}
+41 :: 1362 set() {<Brick 64>}
+41 :: 88 set() {<Brick 775>}
+42 :: 444 {<Brick 1225>} {<Brick 773>}
+42 :: 933 {<Brick 1080>} {<Brick 547>}
+42 :: 470 set() {<Brick 568>}
+42 :: 514 {<Brick 351>} {<Brick 1091>}
+42 :: 1381 {<Brick 668>} {<Brick 1091>, <Brick 969>}
+42 :: 320 set() {<Brick 547>}
+42 :: 935 {<Brick 612>} {<Brick 969>}
+42 :: 220 {<Brick 1036>} {<Brick 91>}
+42 :: 282 set() {<Brick 568>}
+43 :: 444 {<Brick 1225>} {<Brick 773>}
+43 :: 933 {<Brick 1080>} {<Brick 547>}
+43 :: 470 set() {<Brick 568>}
+43 :: 668 {<Brick 989>} {<Brick 1381>}
+43 :: 351 {<Brick 180>} {<Brick 514>}
+43 :: 612 {<Brick 335>, <Brick 297>, <Brick 915>} {<Brick 935>}
+43 :: 1036 {<Brick 1175>, <Brick 1051>} {<Brick 220>}
+44 :: 444 {<Brick 1225>} {<Brick 773>}
+44 :: 933 {<Brick 1080>} {<Brick 547>}
+44 :: 470 set() {<Brick 568>}
+44 :: 351 {<Brick 180>} {<Brick 514>}
+44 :: 989 {<Brick 245>, <Brick 442>} {<Brick 668>}
+44 :: 297 {<Brick 90>, <Brick 625>} {<Brick 612>}
+44 :: 1175 {<Brick 463>} {<Brick 1036>}
+44 :: 335 {<Brick 257>} {<Brick 612>}
+44 :: 915 {<Brick 145>} {<Brick 612>}
+44 :: 1051 {<Brick 591>} {<Brick 1036>}
+45 :: 470 set() {<Brick 568>}
+45 :: 1225 {<Brick 1247>} {<Brick 444>}
+45 :: 1080 {<Brick 398>, <Brick 1223>} {<Brick 933>}
+45 :: 180 set() {<Brick 351>}
+45 :: 245 {<Brick 984>, <Brick 1247>} {<Brick 989>}
+45 :: 90 set() {<Brick 297>}
+45 :: 442 {<Brick 1247>} {<Brick 989>}
+45 :: 625 {<Brick 1201>} {<Brick 297>}
+45 :: 915 {<Brick 145>} {<Brick 612>}
+45 :: 463 set() {<Brick 1175>}
+45 :: 591 {<Brick 1060>} {<Brick 1051>}
+45 :: 257 {<Brick 1138>, <Brick 635>} {<Brick 335>}
+46 :: 398 {<Brick 1134>, <Brick 1203>, <Brick 947>} {<Brick 1080>}
+46 :: 1223 {<Brick 1134>, <Brick 1304>} {<Brick 1080>}
+46 :: 90 set() {<Brick 297>}
+46 :: 915 {<Brick 145>} {<Brick 612>}
+46 :: 984 {<Brick 1276>} {<Brick 245>}
+46 :: 1201 {<Brick 181>} {<Brick 625>}
+46 :: 1247 {<Brick 156>} {<Brick 1225>, <Brick 442>, <Brick 245>}
+46 :: 635 {<Brick 626>} {<Brick 257>}
+46 :: 1060 {<Brick 1349>, <Brick 1304>} {<Brick 591>}
+46 :: 1138 {<Brick 416>} {<Brick 257>}
+47 :: 1134 {<Brick 828>, <Brick 1248>} {<Brick 398>, <Brick 1223>}
+47 :: 1203 {<Brick 240>} {<Brick 398>}
+47 :: 947 {<Brick 1245>} {<Brick 398>}
+47 :: 90 set() {<Brick 297>}
+47 :: 915 {<Brick 145>} {<Brick 612>}
+47 :: 984 {<Brick 1276>} {<Brick 245>}
+47 :: 1138 {<Brick 416>} {<Brick 257>}
+47 :: 156 set() {<Brick 1247>}
+47 :: 181 {<Brick 517>} {<Brick 1201>}
+47 :: 1304 {<Brick 828>, <Brick 1242>} {<Brick 1060>, <Brick 1223>}
+47 :: 1349 {<Brick 1245>} {<Brick 1060>}
+47 :: 626 set() {<Brick 635>}
+48 :: 1203 {<Brick 240>} {<Brick 398>}
+48 :: 1248 {<Brick 251>, <Brick 764>} {<Brick 1134>}
+48 :: 984 {<Brick 1276>} {<Brick 245>}
+48 :: 1138 {<Brick 416>} {<Brick 257>}
+48 :: 145 {<Brick 1236>} {<Brick 915>}
+48 :: 181 {<Brick 517>} {<Brick 1201>}
+48 :: 1242 {<Brick 50>, <Brick 19>} {<Brick 1304>}
+48 :: 1245 set() {<Brick 1349>, <Brick 947>}
+48 :: 828 set() {<Brick 1134>, <Brick 1304>}
+49 :: 1203 {<Brick 240>} {<Brick 398>}
+49 :: 764 {<Brick 1410>} {<Brick 1248>}
+49 :: 251 {<Brick 502>} {<Brick 1248>}
+49 :: 1276 {<Brick 1151>} {<Brick 984>}
+49 :: 50 set() {<Brick 1242>}
+49 :: 416 {<Brick 1040>} {<Brick 1138>}
+49 :: 1236 {<Brick 994>, <Brick 1156>, <Brick 570>, <Brick 179>} {<Brick 145>}
+49 :: 19 {<Brick 1272>} {<Brick 1242>}
+49 :: 517 set() {<Brick 181>}
+50 :: 502 {<Brick 1044>} {<Brick 251>}
+50 :: 1410 {<Brick 1402>} {<Brick 764>}
+50 :: 1151 {<Brick 836>, <Brick 979>} {<Brick 1276>}
+50 :: 1156 {<Brick 210>} {<Brick 1236>}
+50 :: 179 {<Brick 210>, <Brick 435>, <Brick 560>} {<Brick 1236>}
+50 :: 570 {<Brick 899>} {<Brick 1236>}
+50 :: 1040 {<Brick 999>, <Brick 571>} {<Brick 416>}
+50 :: 240 {<Brick 1444>, <Brick 199>} {<Brick 1203>}
+50 :: 994 {<Brick 862>, <Brick 307>} {<Brick 1236>}
+50 :: 1272 {<Brick 456>} {<Brick 19>}
+51 :: 1402 {<Brick 714>} {<Brick 1410>}
+51 :: 1044 {<Brick 658>, <Brick 250>} {<Brick 502>}
+51 :: 210 {<Brick 724>, <Brick 973>} {<Brick 1156>, <Brick 179>}
+51 :: 571 {<Brick 1233>} {<Brick 1040>}
+51 :: 979 set() {<Brick 1151>}
+51 :: 199 {<Brick 1343>} {<Brick 240>}
+51 :: 307 set() {<Brick 994>}
+51 :: 836 {<Brick 838>} {<Brick 1151>}
+51 :: 862 {<Brick 588>} {<Brick 994>}
+51 :: 899 {<Brick 1375>} {<Brick 570>}
+51 :: 1444 {<Brick 250>, <Brick 1343>} {<Brick 240>}
+51 :: 435 {<Brick 37>} {<Brick 179>}
+51 :: 456 set() {<Brick 1272>}
+51 :: 560 set() {<Brick 179>}
+51 :: 999 {<Brick 73>} {<Brick 1040>}
+52 :: 714 set() {<Brick 1402>}
+52 :: 658 {<Brick 911>, <Brick 926>} {<Brick 1044>}
+52 :: 571 {<Brick 1233>} {<Brick 1040>}
+52 :: 973 {<Brick 949>, <Brick 950>} {<Brick 210>}
+52 :: 456 set() {<Brick 1272>}
+52 :: 724 {<Brick 949>, <Brick 950>} {<Brick 210>}
+52 :: 838 {<Brick 824>} {<Brick 836>}
+52 :: 1343 {<Brick 108>, <Brick 1167>} {<Brick 1444>, <Brick 199>}
+52 :: 250 {<Brick 911>, <Brick 926>} {<Brick 1444>, <Brick 1044>}
+52 :: 37 {<Brick 678>, <Brick 1399>} {<Brick 435>}
+52 :: 588 {<Brick 654>, <Brick 326>} {<Brick 862>}
+52 :: 1375 set() {<Brick 899>}
+52 :: 73 {<Brick 1131>} {<Brick 999>}
+53 :: 571 {<Brick 1233>} {<Brick 1040>}
+53 :: 456 set() {<Brick 1272>}
+53 :: 950 {<Brick 1123>} {<Brick 724>, <Brick 973>}
+53 :: 1167 {<Brick 902>} {<Brick 1343>}
+53 :: 108 set() {<Brick 1343>}
+53 :: 1375 set() {<Brick 899>}
+53 :: 326 {<Brick 483>} {<Brick 588>}
+53 :: 824 {<Brick 890>} {<Brick 838>}
+53 :: 911 {<Brick 1231>, <Brick 801>} {<Brick 658>, <Brick 250>}
+53 :: 949 {<Brick 171>} {<Brick 724>, <Brick 973>}
+53 :: 654 {<Brick 415>} {<Brick 588>}
+53 :: 926 {<Brick 1433>, <Brick 1231>} {<Brick 658>, <Brick 250>}
+53 :: 1399 {<Brick 1115>, <Brick 745>, <Brick 415>} {<Brick 37>}
+53 :: 678 {<Brick 221>} {<Brick 37>}
+53 :: 1131 {<Brick 1237>} {<Brick 73>}
+54 :: 1233 {<Brick 1329>} {<Brick 571>}
+54 :: 108 set() {<Brick 1343>}
+54 :: 1375 set() {<Brick 899>}
+54 :: 326 {<Brick 483>} {<Brick 588>}
+54 :: 902 {<Brick 1084>} {<Brick 1167>}
+54 :: 890 {<Brick 504>} {<Brick 824>}
+54 :: 1123 {<Brick 621>, <Brick 896>} {<Brick 950>}
+54 :: 415 set() {<Brick 1399>, <Brick 654>}
+54 :: 745 {<Brick 1269>} {<Brick 1399>}
+54 :: 1231 set() {<Brick 911>, <Brick 926>}
+54 :: 171 set() {<Brick 949>}
+54 :: 221 {<Brick 1071>} {<Brick 678>}
+54 :: 801 set() {<Brick 911>}
+54 :: 1433 set() {<Brick 926>}
+54 :: 1115 {<Brick 1292>} {<Brick 1399>}
+54 :: 1237 {<Brick 1125>} {<Brick 1131>}
+55 :: 1375 set() {<Brick 899>}
+55 :: 326 {<Brick 483>} {<Brick 588>}
+55 :: 1329 set() {<Brick 1233>}
+55 :: 1084 {<Brick 125>, <Brick 693>} {<Brick 902>}
+55 :: 621 {<Brick 642>} {<Brick 1123>}
+55 :: 171 set() {<Brick 949>}
+55 :: 504 {<Brick 301>, <Brick 437>} {<Brick 890>}
+55 :: 801 set() {<Brick 911>}
+55 :: 896 {<Brick 390>} {<Brick 1123>}
+55 :: 1071 {<Brick 793>, <Brick 990>} {<Brick 221>}
+55 :: 1269 {<Brick 761>} {<Brick 745>}
+55 :: 1292 set() {<Brick 1115>}
+55 :: 1125 set() {<Brick 1237>}
+56 :: 125 {<Brick 1279>} {<Brick 1084>}
+56 :: 693 set() {<Brick 1084>}
+56 :: 801 set() {<Brick 911>}
+56 :: 390 {<Brick 753>, <Brick 694>, <Brick 310>} {<Brick 896>}
+56 :: 483 set() {<Brick 326>}
+56 :: 642 {<Brick 605>, <Brick 159>} {<Brick 621>}
+56 :: 301 {<Brick 1068>, <Brick 1234>} {<Brick 504>}
+56 :: 437 {<Brick 1068>} {<Brick 504>}
+56 :: 761 set() {<Brick 1269>}
+56 :: 793 {<Brick 1202>} {<Brick 1071>}
+56 :: 990 set() {<Brick 1071>}
+57 :: 125 {<Brick 1279>} {<Brick 1084>}
+57 :: 753 {<Brick 27>} {<Brick 390>}
+57 :: 310 {<Brick 423>} {<Brick 390>}
+57 :: 694 {<Brick 27>} {<Brick 390>}
+57 :: 159 set() {<Brick 642>}
+57 :: 761 set() {<Brick 1269>}
+57 :: 605 {<Brick 1206>} {<Brick 642>}
+57 :: 1234 {<Brick 1168>, <Brick 1313>} {<Brick 301>}
+57 :: 1068 {<Brick 126>, <Brick 940>} {<Brick 301>, <Brick 437>}
+57 :: 1202 set() {<Brick 793>}
+58 :: 125 {<Brick 1279>} {<Brick 1084>}
+58 :: 27 {<Brick 937>} {<Brick 753>, <Brick 694>}
+58 :: 159 set() {<Brick 642>}
+58 :: 423 {<Brick 928>, <Brick 222>} {<Brick 310>}
+58 :: 761 set() {<Brick 1269>}
+58 :: 1202 set() {<Brick 793>}
+58 :: 1206 set() {<Brick 605>}
+58 :: 940 {<Brick 1288>} {<Brick 1068>}
+58 :: 126 {<Brick 1207>} {<Brick 1068>}
+58 :: 1168 {<Brick 1430>} {<Brick 1234>}
+58 :: 1313 {<Brick 528>} {<Brick 1234>}
+59 :: 1279 set() {<Brick 125>}
+59 :: 159 set() {<Brick 642>}
+59 :: 761 set() {<Brick 1269>}
+59 :: 937 {<Brick 247>} {<Brick 27>}
+59 :: 928 {<Brick 122>} {<Brick 423>}
+59 :: 1202 set() {<Brick 793>}
+59 :: 222 {<Brick 173>} {<Brick 423>}
+59 :: 528 {<Brick 1049>, <Brick 663>} {<Brick 1313>}
+59 :: 1207 {<Brick 1126>} {<Brick 126>}
+59 :: 1288 {<Brick 944>, <Brick 833>} {<Brick 940>}
+59 :: 1430 {<Brick 785>} {<Brick 1168>}
+60 :: 159 set() {<Brick 642>}
+60 :: 247 {<Brick 866>, <Brick 954>} {<Brick 937>}
+60 :: 173 {<Brick 881>} {<Brick 222>}
+60 :: 122 {<Brick 18>, <Brick 1250>} {<Brick 928>}
+60 :: 785 set() {<Brick 1430>}
+60 :: 833 {<Brick 1154>} {<Brick 1288>}
+60 :: 944 {<Brick 314>, <Brick 827>} {<Brick 1288>}
+60 :: 1049 set() {<Brick 528>}
+60 :: 1126 set() {<Brick 1207>}
+60 :: 663 {<Brick 412>, <Brick 1019>} {<Brick 528>}
+61 :: 866 {<Brick 1152>, <Brick 576>} {<Brick 247>}
+61 :: 954 {<Brick 139>} {<Brick 247>}
+61 :: 18 {<Brick 339>} {<Brick 122>}
+61 :: 314 {<Brick 1249>} {<Brick 944>}
+61 :: 881 {<Brick 295>} {<Brick 173>}
+61 :: 1250 {<Brick 1055>} {<Brick 122>}
+61 :: 412 {<Brick 831>} {<Brick 663>}
+61 :: 827 {<Brick 480>, <Brick 1442>} {<Brick 944>}
+61 :: 1154 {<Brick 401>, <Brick 1251>} {<Brick 833>}
+61 :: 1019 set() {<Brick 663>}
+62 :: 139 set() {<Brick 954>}
+62 :: 1152 {<Brick 826>, <Brick 1095>} {<Brick 866>}
+62 :: 576 {<Brick 826>, <Brick 464>} {<Brick 866>}
+62 :: 1055 {<Brick 539>} {<Brick 1250>}
+62 :: 295 {<Brick 403>, <Brick 1>, <Brick 1095>} {<Brick 881>}
+62 :: 339 {<Brick 1317>} {<Brick 18>}
+62 :: 831 {<Brick 69>} {<Brick 412>}
+62 :: 1249 set() {<Brick 314>}
+62 :: 1251 set() {<Brick 1154>}
+62 :: 401 set() {<Brick 1154>}
+62 :: 480 set() {<Brick 827>}
+62 :: 1442 {<Brick 1420>} {<Brick 827>}
+63 :: 139 set() {<Brick 954>}
+63 :: 1055 {<Brick 539>} {<Brick 1250>}
+63 :: 464 {<Brick 697>, <Brick 951>} {<Brick 576>}
+63 :: 69 set() {<Brick 831>}
+63 :: 401 set() {<Brick 1154>}
+63 :: 826 {<Brick 766>} {<Brick 1152>, <Brick 576>}
+63 :: 1095 {<Brick 1077>} {<Brick 1152>, <Brick 295>}
+63 :: 1 {<Brick 274>, <Brick 575>} {<Brick 295>}
+63 :: 403 set() {<Brick 295>}
+63 :: 1317 set() {<Brick 339>}
+63 :: 1420 set() {<Brick 1442>}
+64 :: 139 set() {<Brick 954>}
+64 :: 1055 {<Brick 539>} {<Brick 1250>}
+64 :: 401 set() {<Brick 1154>}
+64 :: 697 {<Brick 742>} {<Brick 464>}
+64 :: 1077 set() {<Brick 1095>}
+64 :: 575 {<Brick 972>} {<Brick 1>}
+64 :: 766 set() {<Brick 826>}
+64 :: 951 {<Brick 742>} {<Brick 464>}
+64 :: 274 {<Brick 189>, <Brick 698>} {<Brick 1>}
+65 :: 1055 {<Brick 539>} {<Brick 1250>}
+65 :: 401 set() {<Brick 1154>}
+65 :: 697 {<Brick 742>} {<Brick 464>}
+65 :: 766 set() {<Brick 826>}
+65 :: 951 {<Brick 742>} {<Brick 464>}
+65 :: 972 {<Brick 1030>} {<Brick 575>}
+65 :: 189 {<Brick 224>, <Brick 1111>} {<Brick 274>}
+65 :: 698 {<Brick 294>, <Brick 265>, <Brick 1030>} {<Brick 274>}
+66 :: 401 set() {<Brick 1154>}
+66 :: 697 {<Brick 742>} {<Brick 464>}
+66 :: 766 set() {<Brick 826>}
+66 :: 951 {<Brick 742>} {<Brick 464>}
+66 :: 539 {<Brick 293>} {<Brick 1055>}
+66 :: 224 set() {<Brick 189>}
+66 :: 265 {<Brick 920>} {<Brick 698>}
+66 :: 1030 {<Brick 349>} {<Brick 972>, <Brick 698>}
+66 :: 294 {<Brick 74>} {<Brick 698>}
+66 :: 1111 {<Brick 861>, <Brick 510>, <Brick 1069>} {<Brick 189>}
+67 :: 697 {<Brick 742>} {<Brick 464>}
+67 :: 951 {<Brick 742>} {<Brick 464>}
+67 :: 293 {<Brick 82>} {<Brick 539>}
+67 :: 224 set() {<Brick 189>}
+67 :: 349 {<Brick 453>, <Brick 203>, <Brick 532>} {<Brick 1030>}
+67 :: 920 set() {<Brick 265>}
+67 :: 510 {<Brick 196>} {<Brick 1111>}
+67 :: 861 {<Brick 903>, <Brick 158>} {<Brick 1111>}
+67 :: 74 {<Brick 248>, <Brick 532>, <Brick 998>} {<Brick 294>}
+67 :: 1069 {<Brick 845>, <Brick 903>, <Brick 158>} {<Brick 1111>}
+68 :: 82 set() {<Brick 293>}
+68 :: 742 set() {<Brick 697>, <Brick 951>}
+68 :: 224 set() {<Brick 189>}
+68 :: 203 set() {<Brick 349>}
+68 :: 453 {<Brick 1043>, <Brick 1305>} {<Brick 349>}
+68 :: 532 set() {<Brick 349>, <Brick 74>}
+68 :: 903 set() {<Brick 861>, <Brick 1069>}
+68 :: 196 {<Brick 835>} {<Brick 510>}
+68 :: 248 {<Brick 1072>} {<Brick 74>}
+68 :: 845 set() {<Brick 1069>}
+68 :: 998 {<Brick 428>} {<Brick 74>}
+68 :: 158 {<Brick 1378>, <Brick 603>} {<Brick 861>, <Brick 1069>}
+69 :: 203 set() {<Brick 349>}
+69 :: 1305 set() {<Brick 453>}
+69 :: 835 {<Brick 759>} {<Brick 196>}
+69 :: 1043 {<Brick 641>, <Brick 1079>, <Brick 290>} {<Brick 453>}
+69 :: 428 {<Brick 595>} {<Brick 998>}
+69 :: 1072 {<Brick 976>, <Brick 595>} {<Brick 248>}
+69 :: 603 {<Brick 1135>} {<Brick 158>}
+69 :: 1378 {<Brick 1058>, <Brick 438>} {<Brick 158>}
+70 :: 203 set() {<Brick 349>}
+70 :: 290 {<Brick 1239>, <Brick 1235>} {<Brick 1043>}
+70 :: 759 {<Brick 1192>} {<Brick 835>}
+70 :: 595 set() {<Brick 1072>, <Brick 428>}
+70 :: 641 set() {<Brick 1043>}
+70 :: 976 {<Brick 772>, <Brick 35>} {<Brick 1072>}
+70 :: 1079 {<Brick 195>} {<Brick 1043>}
+70 :: 438 {<Brick 1322>} {<Brick 1378>}
+70 :: 1058 {<Brick 807>} {<Brick 1378>}
+70 :: 1135 {<Brick 75>} {<Brick 603>}
+71 :: 203 set() {<Brick 349>}
+71 :: 759 {<Brick 1192>} {<Brick 835>}
+71 :: 1079 {<Brick 195>} {<Brick 1043>}
+71 :: 1235 {<Brick 901>, <Brick 1193>} {<Brick 290>}
+71 :: 1239 {<Brick 341>, <Brick 925>} {<Brick 290>}
+71 :: 35 {<Brick 962>} {<Brick 976>}
+71 :: 772 {<Brick 305>, <Brick 337>} {<Brick 976>}
+71 :: 807 {<Brick 51>} {<Brick 1058>}
+71 :: 1322 {<Brick 228>, <Brick 1347>} {<Brick 438>}
+71 :: 75 {<Brick 901>} {<Brick 1135>}
+72 :: 759 {<Brick 1192>} {<Brick 835>}
+72 :: 1079 {<Brick 195>} {<Brick 1043>}
+72 :: 341 set() {<Brick 1239>}
+72 :: 925 {<Brick 1161>} {<Brick 1239>}
+72 :: 1193 {<Brick 40>} {<Brick 1235>}
+72 :: 51 {<Brick 83>} {<Brick 807>}
+72 :: 337 {<Brick 54>, <Brick 261>} {<Brick 772>}
+72 :: 962 {<Brick 908>, <Brick 1390>} {<Brick 35>}
+72 :: 1347 {<Brick 399>} {<Brick 1322>}
+72 :: 228 {<Brick 858>, <Brick 662>} {<Brick 1322>}
+72 :: 305 {<Brick 137>} {<Brick 772>}
+72 :: 901 set() {<Brick 75>, <Brick 1235>}
+73 :: 759 {<Brick 1192>} {<Brick 835>}
+73 :: 40 {<Brick 160>} {<Brick 1193>}
+73 :: 1161 {<Brick 615>} {<Brick 925>}
+73 :: 195 {<Brick 1284>} {<Brick 1079>}
+73 :: 54 set() {<Brick 337>}
+73 :: 261 {<Brick 549>} {<Brick 337>}
+73 :: 399 {<Brick 880>} {<Brick 1347>}
+73 :: 1390 {<Brick 645>} {<Brick 962>}
+73 :: 83 {<Brick 167>} {<Brick 51>}
+73 :: 662 set() {<Brick 228>}
+73 :: 858 set() {<Brick 228>}
+73 :: 908 {<Brick 31>} {<Brick 962>}
+73 :: 137 {<Brick 549>} {<Brick 305>}
+74 :: 1161 {<Brick 615>} {<Brick 925>}
+74 :: 1192 {<Brick 1246>} {<Brick 759>}
+74 :: 54 set() {<Brick 337>}
+74 :: 160 set() {<Brick 40>}
+74 :: 1284 {<Brick 507>} {<Brick 195>}
+74 :: 31 {<Brick 280>, <Brick 393>} {<Brick 908>}
+74 :: 645 {<Brick 1214>} {<Brick 1390>}
+74 :: 880 {<Brick 263>} {<Brick 399>}
+74 :: 167 {<Brick 211>} {<Brick 83>}
+74 :: 549 {<Brick 666>} {<Brick 137>, <Brick 261>}
+75 :: 1161 {<Brick 615>} {<Brick 925>}
+75 :: 54 set() {<Brick 337>}
+75 :: 1246 set() {<Brick 1192>}
+75 :: 280 set() {<Brick 31>}
+75 :: 393 set() {<Brick 31>}
+75 :: 507 {<Brick 312>} {<Brick 1284>}
+75 :: 263 {<Brick 1385>} {<Brick 880>}
+75 :: 666 {<Brick 434>} {<Brick 549>}
+75 :: 1214 {<Brick 1386>} {<Brick 645>}
+75 :: 211 {<Brick 97>} {<Brick 167>}
+76 :: 54 set() {<Brick 337>}
+76 :: 615 {<Brick 100>} {<Brick 1161>}
+76 :: 393 set() {<Brick 31>}
+76 :: 312 {<Brick 669>} {<Brick 507>}
+76 :: 1385 {<Brick 11>} {<Brick 263>}
+76 :: 434 {<Brick 94>} {<Brick 666>}
+76 :: 1386 {<Brick 852>} {<Brick 1214>}
+76 :: 97 {<Brick 441>} {<Brick 211>}
+77 :: 100 {<Brick 725>, <Brick 451>} {<Brick 615>}
+77 :: 393 set() {<Brick 31>}
+77 :: 669 {<Brick 1328>, <Brick 1183>} {<Brick 312>}
+77 :: 11 set() {<Brick 1385>}
+77 :: 94 set() {<Brick 434>}
+77 :: 852 {<Brick 1300>, <Brick 1328>} {<Brick 1386>}
+77 :: 441 {<Brick 1340>} {<Brick 97>}
+78 :: 451 {<Brick 6>, <Brick 1318>, <Brick 1132>} {<Brick 100>}
+78 :: 725 {<Brick 1132>, <Brick 553>, <Brick 596>} {<Brick 100>}
+78 :: 1183 {<Brick 1422>} {<Brick 669>}
+78 :: 94 set() {<Brick 434>}
+78 :: 1340 {<Brick 1422>} {<Brick 441>}
+78 :: 1300 {<Brick 796>, <Brick 288>} {<Brick 852>}
+78 :: 1328 {<Brick 910>, <Brick 131>} {<Brick 852>, <Brick 669>}
+79 :: 1318 {<Brick 1114>, <Brick 1325>} {<Brick 451>}
+79 :: 6 {<Brick 689>} {<Brick 451>}
+79 :: 1132 {<Brick 1325>} {<Brick 725>, <Brick 451>}
+79 :: 553 set() {<Brick 725>}
+79 :: 596 set() {<Brick 725>}
+79 :: 288 {<Brick 1182>, <Brick 207>} {<Brick 1300>}
+79 :: 910 {<Brick 45>} {<Brick 1328>}
+79 :: 1422 set() {<Brick 1340>, <Brick 1183>}
+79 :: 131 set() {<Brick 1328>}
+79 :: 796 {<Brick 691>} {<Brick 1300>}
+80 :: 6 {<Brick 689>} {<Brick 451>}
+80 :: 1114 {<Brick 787>} {<Brick 1318>}
+80 :: 1325 {<Brick 653>} {<Brick 1132>, <Brick 1318>}
+80 :: 207 set() {<Brick 288>}
+80 :: 45 {<Brick 536>, <Brick 546>, <Brick 218>} {<Brick 910>}
+80 :: 1182 set() {<Brick 288>}
+80 :: 691 {<Brick 1227>} {<Brick 796>}
+81 :: 6 {<Brick 689>} {<Brick 451>}
+81 :: 653 {<Brick 689>} {<Brick 1325>}
+81 :: 787 {<Brick 781>} {<Brick 1114>}
+81 :: 218 {<Brick 959>} {<Brick 45>}
+81 :: 536 {<Brick 1270>} {<Brick 45>}
+81 :: 546 {<Brick 1270>} {<Brick 45>}
+81 :: 1227 set() {<Brick 691>}
+82 :: 689 {<Brick 699>} {<Brick 6>, <Brick 653>}
+82 :: 781 set() {<Brick 787>}
+82 :: 959 {<Brick 152>, <Brick 285>, <Brick 267>, <Brick 606>} {<Brick 218>}
+82 :: 1270 {<Brick 964>, <Brick 758>, <Brick 664>} {<Brick 536>, <Brick 546>}
+83 :: 699 {<Brick 1428>} {<Brick 689>}
+83 :: 267 {<Brick 452>, <Brick 1148>} {<Brick 959>}
+83 :: 285 {<Brick 355>} {<Brick 959>}
+83 :: 152 set() {<Brick 959>}
+83 :: 606 {<Brick 770>} {<Brick 959>}
+83 :: 758 {<Brick 164>, <Brick 1172>} {<Brick 1270>}
+83 :: 964 set() {<Brick 1270>}
+83 :: 664 {<Brick 1263>} {<Brick 1270>}
+84 :: 1428 {<Brick 12>} {<Brick 699>}
+84 :: 964 set() {<Brick 1270>}
+84 :: 164 {<Brick 811>} {<Brick 758>}
+84 :: 355 {<Brick 520>} {<Brick 285>}
+84 :: 452 set() {<Brick 267>}
+84 :: 1148 {<Brick 474>} {<Brick 267>}
+84 :: 1172 {<Brick 873>, <Brick 482>} {<Brick 758>}
+84 :: 770 {<Brick 361>, <Brick 1353>} {<Brick 606>}
+84 :: 1263 {<Brick 1165>} {<Brick 664>}
+85 :: 12 {<Brick 79>, <Brick 887>} {<Brick 1428>}
+85 :: 482 {<Brick 161>} {<Brick 1172>}
+85 :: 873 set() {<Brick 1172>}
+85 :: 361 {<Brick 1256>, <Brick 882>, <Brick 1166>, <Brick 795>} {<Brick 770>}
+85 :: 474 set() {<Brick 1148>}
+85 :: 520 {<Brick 272>} {<Brick 355>}
+85 :: 811 set() {<Brick 164>}
+85 :: 1353 set() {<Brick 770>}
+85 :: 1165 {<Brick 548>} {<Brick 1263>}
+86 :: 887 set() {<Brick 12>}
+86 :: 79 {<Brick 1261>} {<Brick 12>}
+86 :: 873 set() {<Brick 1172>}
+86 :: 161 {<Brick 109>} {<Brick 482>}
+86 :: 474 set() {<Brick 1148>}
+86 :: 520 {<Brick 272>} {<Brick 355>}
+86 :: 882 {<Brick 895>} {<Brick 361>}
+86 :: 1166 {<Brick 447>} {<Brick 361>}
+86 :: 1256 {<Brick 176>, <Brick 619>} {<Brick 361>}
+86 :: 795 {<Brick 1431>, <Brick 975>} {<Brick 361>}
+86 :: 1165 {<Brick 548>} {<Brick 1263>}
+87 :: 79 {<Brick 1261>} {<Brick 12>}
+87 :: 873 set() {<Brick 1172>}
+87 :: 474 set() {<Brick 1148>}
+87 :: 520 {<Brick 272>} {<Brick 355>}
+87 :: 109 {<Brick 1099>} {<Brick 161>}
+87 :: 619 {<Brick 1102>} {<Brick 1256>}
+87 :: 1165 {<Brick 548>} {<Brick 1263>}
+87 :: 176 {<Brick 769>, <Brick 17>} {<Brick 1256>}
+87 :: 447 set() {<Brick 1166>}
+87 :: 895 {<Brick 557>, <Brick 352>} {<Brick 882>}
+87 :: 975 {<Brick 408>, <Brick 227>} {<Brick 795>}
+87 :: 1431 {<Brick 338>} {<Brick 795>}
+88 :: 79 {<Brick 1261>} {<Brick 12>}
+88 :: 873 set() {<Brick 1172>}
+88 :: 474 set() {<Brick 1148>}
+88 :: 520 {<Brick 272>} {<Brick 355>}
+88 :: 1102 {<Brick 1038>} {<Brick 619>}
+88 :: 447 set() {<Brick 1166>}
+88 :: 352 {<Brick 609>, <Brick 859>} {<Brick 895>}
+88 :: 769 {<Brick 1391>} {<Brick 176>}
+88 :: 1099 set() {<Brick 109>}
+88 :: 17 {<Brick 138>} {<Brick 176>}
+88 :: 408 set() {<Brick 975>}
+88 :: 548 set() {<Brick 1165>}
+88 :: 227 set() {<Brick 975>}
+88 :: 557 {<Brick 859>} {<Brick 895>}
+88 :: 338 {<Brick 840>} {<Brick 1431>}
+89 :: 79 {<Brick 1261>} {<Brick 12>}
+89 :: 447 set() {<Brick 1166>}
+89 :: 1038 set() {<Brick 1102>}
+89 :: 272 {<Brick 632>, <Brick 47>} {<Brick 520>}
+89 :: 548 set() {<Brick 1165>}
+89 :: 609 {<Brick 1350>, <Brick 1373>} {<Brick 352>}
+89 :: 1391 {<Brick 1252>} {<Brick 769>}
+89 :: 138 set() {<Brick 17>}
+89 :: 859 {<Brick 192>, <Brick 535>} {<Brick 557>, <Brick 352>}
+89 :: 840 set() {<Brick 338>}
+90 :: 1261 {<Brick 233>, <Brick 730>} {<Brick 79>}
+90 :: 47 {<Brick 1262>} {<Brick 272>}
+90 :: 138 set() {<Brick 17>}
+90 :: 1373 {<Brick 1075>} {<Brick 609>}
+90 :: 632 {<Brick 391>} {<Brick 272>}
+90 :: 1252 set() {<Brick 1391>}
+90 :: 1350 set() {<Brick 609>}
+90 :: 535 {<Brick 1188>} {<Brick 859>}
+90 :: 192 set() {<Brick 859>}
+91 :: 730 set() {<Brick 1261>}
+91 :: 233 {<Brick 204>} {<Brick 1261>}
+91 :: 138 set() {<Brick 17>}
+91 :: 1075 {<Brick 1170>, <Brick 372>, <Brick 20>, <Brick 513>} {<Brick 1373>}
+91 :: 1262 set() {<Brick 47>}
+91 :: 192 set() {<Brick 859>}
+91 :: 391 {<Brick 552>, <Brick 930>} {<Brick 632>}
+91 :: 1188 {<Brick 711>} {<Brick 535>}
+92 :: 730 set() {<Brick 1261>}
+92 :: 204 set() {<Brick 233>}
+92 :: 1170 {<Brick 322>} {<Brick 1075>}
+92 :: 372 {<Brick 348>, <Brick 1382>} {<Brick 1075>}
+92 :: 20 {<Brick 300>, <Brick 348>} {<Brick 1075>}
+92 :: 513 {<Brick 929>} {<Brick 1075>}
+92 :: 711 {<Brick 995>} {<Brick 1188>}
+92 :: 930 {<Brick 1017>, <Brick 851>} {<Brick 391>}
+92 :: 552 {<Brick 1297>} {<Brick 391>}
+93 :: 730 set() {<Brick 1261>}
+93 :: 322 set() {<Brick 1170>}
+93 :: 1382 {<Brick 955>} {<Brick 372>}
+93 :: 300 {<Brick 81>} {<Brick 20>}
+93 :: 348 {<Brick 81>, <Brick 750>, <Brick 955>} {<Brick 372>, <Brick 20>}
+93 :: 929 {<Brick 756>} {<Brick 513>}
+93 :: 851 {<Brick 186>} {<Brick 930>}
+93 :: 1017 {<Brick 701>} {<Brick 930>}
+93 :: 995 {<Brick 184>, <Brick 1221>} {<Brick 711>}
+93 :: 1297 {<Brick 266>, <Brick 106>} {<Brick 552>}
+94 :: 750 {<Brick 1404>} {<Brick 348>}
+94 :: 756 set() {<Brick 929>}
+94 :: 955 {<Brick 1185>} {<Brick 348>, <Brick 1382>}
+94 :: 81 {<Brick 569>, <Brick 719>} {<Brick 300>, <Brick 348>}
+94 :: 186 set() {<Brick 851>}
+94 :: 701 {<Brick 919>} {<Brick 1017>}
+94 :: 106 {<Brick 395>} {<Brick 1297>}
+94 :: 184 set() {<Brick 995>}
+94 :: 1221 set() {<Brick 995>}
+94 :: 266 {<Brick 76>} {<Brick 1297>}
+95 :: 186 set() {<Brick 851>}
+95 :: 1185 set() {<Brick 955>}
+95 :: 1404 {<Brick 716>, <Brick 439>} {<Brick 750>}
+95 :: 569 {<Brick 1176>, <Brick 1039>} {<Brick 81>}
+95 :: 919 {<Brick 788>, <Brick 968>} {<Brick 701>}
+95 :: 1221 set() {<Brick 995>}
+95 :: 719 {<Brick 225>, <Brick 1039>} {<Brick 81>}
+95 :: 395 {<Brick 1308>} {<Brick 106>}
+95 :: 76 set() {<Brick 266>}
+96 :: 186 set() {<Brick 851>}
+96 :: 1185 set() {<Brick 955>}
+96 :: 716 {<Brick 1301>, <Brick 1177>} {<Brick 1404>}
+96 :: 788 {<Brick 104>, <Brick 1260>} {<Brick 919>}
+96 :: 968 {<Brick 299>} {<Brick 919>}
+96 :: 1221 set() {<Brick 995>}
+96 :: 1176 {<Brick 238>} {<Brick 569>}
+96 :: 225 set() {<Brick 719>}
+96 :: 439 {<Brick 308>} {<Brick 1404>}
+96 :: 1039 {<Brick 254>} {<Brick 569>, <Brick 719>}
+96 :: 1308 {<Brick 1358>} {<Brick 395>}
+97 :: 1185 set() {<Brick 955>}
+97 :: 1301 {<Brick 620>} {<Brick 716>}
+97 :: 104 {<Brick 200>} {<Brick 788>}
+97 :: 299 {<Brick 165>} {<Brick 968>}
+97 :: 1177 set() {<Brick 716>}
+97 :: 238 {<Brick 721>} {<Brick 1176>}
+97 :: 254 set() {<Brick 1039>}
+97 :: 308 {<Brick 1078>, <Brick 671>, <Brick 815>} {<Brick 439>}
+97 :: 1260 {<Brick 200>} {<Brick 788>}
+97 :: 1358 {<Brick 537>} {<Brick 1308>}
+98 :: 1177 set() {<Brick 716>}
+98 :: 165 set() {<Brick 299>}
+98 :: 620 {<Brick 956>} {<Brick 1301>}
+98 :: 721 {<Brick 1332>} {<Brick 238>}
+98 :: 200 {<Brick 1411>} {<Brick 104>, <Brick 1260>}
+98 :: 537 {<Brick 688>, <Brick 178>, <Brick 495>} {<Brick 1358>}
+98 :: 671 set() {<Brick 308>}
+98 :: 815 {<Brick 748>} {<Brick 308>}
+98 :: 1078 {<Brick 657>, <Brick 1143>} {<Brick 308>}
+99 :: 1177 set() {<Brick 716>}
+99 :: 956 set() {<Brick 620>}
+99 :: 495 {<Brick 1105>} {<Brick 537>}
+99 :: 657 {<Brick 752>, <Brick 457>} {<Brick 1078>}
+99 :: 1143 {<Brick 362>} {<Brick 1078>}
+99 :: 1332 set() {<Brick 721>}
+99 :: 178 {<Brick 1018>} {<Brick 537>}
+99 :: 688 {<Brick 1033>} {<Brick 537>}
+99 :: 748 {<Brick 7>} {<Brick 815>}
+99 :: 1411 {<Brick 1278>} {<Brick 200>}
+100 :: 1332 set() {<Brick 721>}
+100 :: 457 {<Brick 72>, <Brick 1445>} {<Brick 657>}
+100 :: 752 {<Brick 1417>} {<Brick 657>}
+100 :: 1033 {<Brick 376>} {<Brick 688>}
+100 :: 1105 {<Brick 1423>} {<Brick 495>}
+100 :: 7 {<Brick 1034>, <Brick 1101>, <Brick 387>} {<Brick 748>}
+100 :: 362 set() {<Brick 1143>}
+100 :: 1018 {<Brick 1015>} {<Brick 178>}
+100 :: 1278 {<Brick 1056>, <Brick 133>, <Brick 1314>} {<Brick 1411>}
+101 :: 1332 set() {<Brick 721>}
+101 :: 1033 {<Brick 376>} {<Brick 688>}
+101 :: 1105 {<Brick 1423>} {<Brick 495>}
+101 :: 72 {<Brick 961>} {<Brick 457>}
+101 :: 1417 {<Brick 255>} {<Brick 752>}
+101 :: 387 {<Brick 424>} {<Brick 7>}
+101 :: 1101 {<Brick 302>} {<Brick 7>}
+101 :: 1445 {<Brick 78>} {<Brick 457>}
+101 :: 133 {<Brick 1217>, <Brick 650>} {<Brick 1278>}
+101 :: 1056 {<Brick 13>, <Brick 842>} {<Brick 1278>}
+101 :: 1015 set() {<Brick 1018>}
+101 :: 1034 {<Brick 900>} {<Brick 7>}
+101 :: 1314 {<Brick 65>} {<Brick 1278>}
+102 :: 1332 set() {<Brick 721>}
+102 :: 1033 {<Brick 376>} {<Brick 688>}
+102 :: 1105 {<Brick 1423>} {<Brick 495>}
+102 :: 255 {<Brick 879>, <Brick 118>, <Brick 102>, <Brick 863>} {<Brick 1417>}
+102 :: 1101 {<Brick 302>} {<Brick 7>}
+102 :: 13 {<Brick 1253>, <Brick 638>, <Brick 771>} {<Brick 1056>}
+102 :: 842 {<Brick 1116>} {<Brick 1056>}
+102 :: 961 {<Brick 256>} {<Brick 72>}
+102 :: 78 set() {<Brick 1445>}
+102 :: 424 {<Brick 476>, <Brick 1389>} {<Brick 387>}
+102 :: 650 {<Brick 638>, <Brick 1389>} {<Brick 133>}
+102 :: 1217 {<Brick 357>} {<Brick 133>}
+102 :: 65 set() {<Brick 1314>}
+102 :: 900 {<Brick 1310>} {<Brick 1034>}
+103 :: 1105 {<Brick 1423>} {<Brick 495>}
+103 :: 102 {<Brick 1367>} {<Brick 255>}
+103 :: 376 {<Brick 1094>} {<Brick 1033>}
+103 :: 842 {<Brick 1116>} {<Brick 1056>}
+103 :: 863 {<Brick 1244>} {<Brick 255>}
+103 :: 879 {<Brick 1367>} {<Brick 255>}
+103 :: 118 {<Brick 648>, <Brick 30>} {<Brick 255>}
+103 :: 256 set() {<Brick 961>}
+103 :: 302 {<Brick 385>, <Brick 981>} {<Brick 1101>}
+103 :: 1253 {<Brick 1104>} {<Brick 13>}
+103 :: 476 set() {<Brick 424>}
+103 :: 771 {<Brick 208>, <Brick 665>} {<Brick 13>}
+103 :: 1217 {<Brick 357>} {<Brick 133>}
+103 :: 638 {<Brick 124>} {<Brick 650>, <Brick 13>}
+103 :: 1389 {<Brick 1029>, <Brick 1293>} {<Brick 424>, <Brick 650>}
+103 :: 1310 set() {<Brick 900>}
+104 :: 842 {<Brick 1116>} {<Brick 1056>}
+104 :: 256 set() {<Brick 961>}
+104 :: 1244 {<Brick 24>} {<Brick 863>}
+104 :: 648 {<Brick 366>} {<Brick 118>}
+104 :: 1094 set() {<Brick 376>}
+104 :: 1104 {<Brick 494>} {<Brick 1253>}
+104 :: 1217 {<Brick 357>} {<Brick 133>}
+104 :: 1423 {<Brick 762>, <Brick 1366>} {<Brick 1105>}
+104 :: 30 {<Brick 616>} {<Brick 118>}
+104 :: 208 set() {<Brick 771>}
+104 :: 385 {<Brick 202>} {<Brick 302>}
+104 :: 1367 {<Brick 298>, <Brick 690>} {<Brick 102>, <Brick 879>}
+104 :: 124 {<Brick 1127>} {<Brick 638>}
+104 :: 665 set() {<Brick 771>}
+104 :: 981 set() {<Brick 302>}
+104 :: 1029 {<Brick 1230>} {<Brick 1389>}
+104 :: 1293 {<Brick 1316>, <Brick 157>} {<Brick 1389>}
+105 :: 256 set() {<Brick 961>}
+105 :: 1104 {<Brick 494>} {<Brick 1253>}
+105 :: 1217 {<Brick 357>} {<Brick 133>}
+105 :: 24 set() {<Brick 1244>}
+105 :: 690 {<Brick 113>} {<Brick 1367>}
+105 :: 762 {<Brick 660>, <Brick 113>} {<Brick 1423>}
+105 :: 1116 {<Brick 1106>} {<Brick 842>}
+105 :: 1366 {<Brick 661>} {<Brick 1423>}
+105 :: 202 {<Brick 360>} {<Brick 385>}
+105 :: 366 {<Brick 223>} {<Brick 648>}
+105 :: 1127 set() {<Brick 124>}
+105 :: 298 {<Brick 1280>} {<Brick 1367>}
+105 :: 616 set() {<Brick 30>}
+105 :: 1230 set() {<Brick 1029>}
+105 :: 157 {<Brick 360>, <Brick 1323>} {<Brick 1293>}
+105 :: 1316 {<Brick 614>} {<Brick 1293>}
+106 :: 1104 {<Brick 494>} {<Brick 1253>}
+106 :: 366 {<Brick 223>} {<Brick 648>}
+106 :: 661 {<Brick 524>, <Brick 986>} {<Brick 1366>}
+106 :: 113 {<Brick 777>, <Brick 624>, <Brick 1205>} {<Brick 762>, <Brick 690>}
+106 :: 660 {<Brick 397>} {<Brick 762>}
+106 :: 1106 set() {<Brick 1116>}
+106 :: 357 set() {<Brick 1217>}
+106 :: 1316 {<Brick 614>} {<Brick 1293>}
+106 :: 1280 {<Brick 182>, <Brick 1205>} {<Brick 298>}
+106 :: 1323 {<Brick 281>} {<Brick 157>}
+106 :: 360 {<Brick 554>, <Brick 515>} {<Brick 202>, <Brick 157>}
+107 :: 494 set() {<Brick 1104>}
+107 :: 986 {<Brick 270>} {<Brick 661>}
+107 :: 524 {<Brick 529>, <Brick 559>} {<Brick 661>}
+107 :: 777 {<Brick 703>} {<Brick 113>}
+107 :: 624 {<Brick 146>} {<Brick 113>}
+107 :: 223 set() {<Brick 366>}
+107 :: 397 {<Brick 1155>} {<Brick 660>}
+107 :: 182 {<Brick 713>, <Brick 2>} {<Brick 1280>}
+107 :: 614 {<Brick 1326>} {<Brick 1316>}
+107 :: 281 set() {<Brick 1323>}
+107 :: 1205 {<Brick 365>} {<Brick 1280>, <Brick 113>}
+107 :: 515 {<Brick 425>, <Brick 543>} {<Brick 360>}
+107 :: 554 set() {<Brick 360>}
+108 :: 270 {<Brick 63>} {<Brick 986>}
+108 :: 703 {<Brick 1290>} {<Brick 777>}
+108 :: 146 set() {<Brick 624>}
+108 :: 529 {<Brick 813>, <Brick 1087>} {<Brick 524>}
+108 :: 559 {<Brick 400>, <Brick 971>} {<Brick 524>}
+108 :: 2 {<Brick 373>} {<Brick 182>}
+108 :: 713 {<Brick 738>} {<Brick 182>}
+108 :: 1155 set() {<Brick 397>}
+108 :: 1326 {<Brick 111>, <Brick 883>, <Brick 1319>, <Brick 311>} {<Brick 614>}
+108 :: 365 {<Brick 583>} {<Brick 1205>}
+108 :: 425 set() {<Brick 515>}
+108 :: 543 {<Brick 1107>} {<Brick 515>}
+109 :: 63 {<Brick 992>} {<Brick 270>}
+109 :: 1290 set() {<Brick 703>}
+109 :: 1087 {<Brick 258>, <Brick 346>, <Brick 1339>} {<Brick 529>}
+109 :: 311 set() {<Brick 1326>}
+109 :: 400 {<Brick 153>} {<Brick 559>}
+109 :: 813 {<Brick 497>} {<Brick 529>}
+109 :: 971 set() {<Brick 559>}
+109 :: 111 {<Brick 1158>} {<Brick 1326>}
+109 :: 883 set() {<Brick 1326>}
+109 :: 373 {<Brick 77>, <Brick 493>} {<Brick 2>}
+109 :: 425 set() {<Brick 515>}
+109 :: 738 {<Brick 744>, <Brick 1213>} {<Brick 713>}
+109 :: 1319 {<Brick 177>} {<Brick 1326>}
+109 :: 583 {<Brick 1198>} {<Brick 365>}
+109 :: 1107 {<Brick 418>} {<Brick 543>}
+110 :: 992 {<Brick 1295>} {<Brick 63>}
+110 :: 813 {<Brick 497>} {<Brick 529>}
+110 :: 111 {<Brick 1158>} {<Brick 1326>}
+110 :: 883 set() {<Brick 1326>}
+110 :: 258 {<Brick 103>} {<Brick 1087>}
+110 :: 346 {<Brick 103>} {<Brick 1087>}
+110 :: 425 set() {<Brick 515>}
+110 :: 1339 {<Brick 103>} {<Brick 1087>}
+110 :: 77 {<Brick 214>} {<Brick 373>}
+110 :: 153 set() {<Brick 400>}
+110 :: 177 {<Brick 726>} {<Brick 1319>}
+110 :: 493 set() {<Brick 373>}
+110 :: 744 {<Brick 269>} {<Brick 738>}
+110 :: 1213 set() {<Brick 738>}
+110 :: 1198 {<Brick 340>} {<Brick 583>}
+110 :: 418 set() {<Brick 1107>}
+111 :: 813 {<Brick 497>} {<Brick 529>}
+111 :: 1295 {<Brick 1315>} {<Brick 992>}
+111 :: 111 {<Brick 1158>} {<Brick 1326>}
+111 :: 883 set() {<Brick 1326>}
+111 :: 177 {<Brick 726>} {<Brick 1319>}
+111 :: 103 {<Brick 677>} {<Brick 258>, <Brick 346>, <Brick 1339>}
+111 :: 214 {<Brick 243>} {<Brick 77>}
+111 :: 269 {<Brick 1436>} {<Brick 744>}
+111 :: 340 {<Brick 1026>} {<Brick 1198>}
+112 :: 883 set() {<Brick 1326>}
+112 :: 1315 {<Brick 567>, <Brick 743>} {<Brick 1295>}
+112 :: 177 {<Brick 726>} {<Brick 1319>}
+112 :: 497 {<Brick 29>} {<Brick 813>}
+112 :: 677 set() {<Brick 103>}
+112 :: 1158 set() {<Brick 111>}
+112 :: 243 set() {<Brick 214>}
+112 :: 1436 set() {<Brick 269>}
+112 :: 1026 {<Brick 1409>} {<Brick 340>}
+113 :: 743 {<Brick 804>} {<Brick 1315>}
+113 :: 29 {<Brick 324>} {<Brick 497>}
+113 :: 567 {<Brick 864>, <Brick 604>} {<Brick 1315>}
+113 :: 726 {<Brick 155>, <Brick 667>} {<Brick 177>}
+113 :: 1409 {<Brick 123>} {<Brick 1026>}
+114 :: 804 {<Brick 556>, <Brick 417>} {<Brick 743>}
+114 :: 604 {<Brick 345>} {<Brick 567>}
+114 :: 667 {<Brick 386>} {<Brick 726>}
+114 :: 324 {<Brick 751>} {<Brick 29>}
+114 :: 864 {<Brick 1401>} {<Brick 567>}
+114 :: 155 set() {<Brick 726>}
+114 :: 123 set() {<Brick 1409>}
+115 :: 417 {<Brick 140>, <Brick 1081>} {<Brick 804>}
+115 :: 556 {<Brick 822>} {<Brick 804>}
+115 :: 386 {<Brick 872>, <Brick 327>} {<Brick 667>}
+115 :: 751 set() {<Brick 324>}
+115 :: 1401 set() {<Brick 864>}
+115 :: 345 {<Brick 1007>} {<Brick 604>}
+116 :: 140 {<Brick 485>} {<Brick 417>}
+116 :: 1081 {<Brick 246>} {<Brick 417>}
+116 :: 822 set() {<Brick 556>}
+116 :: 327 {<Brick 1384>} {<Brick 386>}
+116 :: 872 {<Brick 1413>} {<Brick 386>}
+116 :: 1007 {<Brick 508>} {<Brick 345>}
+117 :: 485 {<Brick 681>} {<Brick 140>}
+117 :: 246 {<Brick 472>, <Brick 812>, <Brick 942>} {<Brick 1081>}
+117 :: 1413 set() {<Brick 872>}
+117 :: 1384 {<Brick 0>} {<Brick 327>}
+117 :: 508 {<Brick 594>} {<Brick 1007>}
+118 :: 681 {<Brick 136>, <Brick 414>} {<Brick 485>}
+118 :: 812 {<Brick 52>, <Brick 194>} {<Brick 246>}
+118 :: 0 {<Brick 143>} {<Brick 1384>}
+118 :: 472 {<Brick 1336>, <Brick 1361>, <Brick 216>} {<Brick 246>}
+118 :: 942 {<Brick 52>} {<Brick 246>}
+118 :: 594 set() {<Brick 508>}
+119 :: 136 {<Brick 715>} {<Brick 681>}
+119 :: 414 {<Brick 409>, <Brick 521>} {<Brick 681>}
+119 :: 52 {<Brick 427>} {<Brick 812>, <Brick 942>}
+119 :: 194 {<Brick 676>} {<Brick 812>}
+119 :: 1336 {<Brick 709>} {<Brick 472>}
+119 :: 143 {<Brick 884>} {<Brick 0>}
+119 :: 216 {<Brick 427>} {<Brick 472>}
+119 :: 1361 {<Brick 500>, <Brick 818>} {<Brick 472>}
+120 :: 136 {<Brick 715>} {<Brick 681>}
+120 :: 521 {<Brick 893>, <Brick 715>} {<Brick 414>}
+120 :: 676 {<Brick 46>, <Brick 283>} {<Brick 194>}
+120 :: 709 {<Brick 1405>, <Brick 283>} {<Brick 1336>}
+120 :: 427 {<Brick 854>, <Brick 455>} {<Brick 52>, <Brick 216>}
+120 :: 500 {<Brick 791>, <Brick 148>} {<Brick 1361>}
+120 :: 409 {<Brick 384>, <Brick 1139>} {<Brick 414>}
+120 :: 818 set() {<Brick 1361>}
+120 :: 884 {<Brick 847>} {<Brick 143>}
+121 :: 715 set() {<Brick 136>, <Brick 521>}
+121 :: 893 {<Brick 1282>} {<Brick 521>}
+121 :: 46 {<Brick 42>, <Brick 1238>} {<Brick 676>}
+121 :: 1405 {<Brick 1371>, <Brick 1345>} {<Brick 709>}
+121 :: 455 set() {<Brick 427>}
+121 :: 791 {<Brick 1437>} {<Brick 500>}
+121 :: 148 {<Brick 375>} {<Brick 500>}
+121 :: 283 {<Brick 406>, <Brick 1059>} {<Brick 676>, <Brick 709>}
+121 :: 847 set() {<Brick 884>}
+121 :: 854 set() {<Brick 427>}
+121 :: 384 {<Brick 389>} {<Brick 409>}
+121 :: 1139 {<Brick 891>} {<Brick 409>}
+122 :: 893 {<Brick 1282>} {<Brick 521>}
+122 :: 42 {<Brick 71>} {<Brick 46>}
+122 :: 791 {<Brick 1437>} {<Brick 500>}
+122 :: 1238 {<Brick 71>, <Brick 702>} {<Brick 46>}
+122 :: 1345 set() {<Brick 1405>}
+122 :: 1371 {<Brick 821>} {<Brick 1405>}
+122 :: 384 {<Brick 389>} {<Brick 409>}
+122 :: 406 {<Brick 735>} {<Brick 283>}
+122 :: 1059 set() {<Brick 283>}
+122 :: 375 {<Brick 545>} {<Brick 148>}
+122 :: 891 set() {<Brick 1139>}
+123 :: 893 {<Brick 1282>} {<Brick 521>}
+123 :: 791 {<Brick 1437>} {<Brick 500>}
+123 :: 71 {<Brick 468>, <Brick 877>, <Brick 215>} {<Brick 42>, <Brick 1238>}
+123 :: 384 {<Brick 389>} {<Brick 409>}
+123 :: 702 {<Brick 1021>, <Brick 1282>} {<Brick 1238>}
+123 :: 1059 set() {<Brick 283>}
+123 :: 735 {<Brick 432>, <Brick 1171>} {<Brick 406>}
+123 :: 821 {<Brick 740>} {<Brick 1371>}
+123 :: 545 {<Brick 808>, <Brick 468>} {<Brick 375>}
+124 :: 791 {<Brick 1437>} {<Brick 500>}
+124 :: 384 {<Brick 389>} {<Brick 409>}
+124 :: 1059 set() {<Brick 283>}
+124 :: 1282 {<Brick 325>, <Brick 505>} {<Brick 893>, <Brick 702>}
+124 :: 740 {<Brick 193>} {<Brick 821>}
+124 :: 877 set() {<Brick 71>}
+124 :: 1171 {<Brick 888>} {<Brick 735>}
+124 :: 215 {<Brick 209>} {<Brick 71>}
+124 :: 1021 {<Brick 904>} {<Brick 702>}
+124 :: 432 {<Brick 704>} {<Brick 735>}
+124 :: 808 set() {<Brick 545>}
+124 :: 468 {<Brick 1229>} {<Brick 545>, <Brick 71>}
+125 :: 1437 {<Brick 1334>} {<Brick 791>}
+125 :: 505 {<Brick 433>, <Brick 1118>} {<Brick 1282>}
+125 :: 877 set() {<Brick 71>}
+125 :: 325 {<Brick 684>, <Brick 1108>, <Brick 850>} {<Brick 1282>}
+125 :: 193 {<Brick 48>, <Brick 1092>} {<Brick 740>}
+125 :: 209 set() {<Brick 215>}
+125 :: 389 set() {<Brick 384>}
+125 :: 704 {<Brick 169>} {<Brick 432>}
+125 :: 888 {<Brick 894>} {<Brick 1171>}
+125 :: 904 {<Brick 980>, <Brick 850>} {<Brick 1021>}
+125 :: 1229 set() {<Brick 468>}
+126 :: 877 set() {<Brick 71>}
+126 :: 1334 {<Brick 572>, <Brick 849>, <Brick 1179>} {<Brick 1437>}
+126 :: 433 {<Brick 61>, <Brick 680>} {<Brick 505>}
+126 :: 684 {<Brick 350>, <Brick 802>} {<Brick 325>}
+126 :: 1118 {<Brick 1065>} {<Brick 505>}
+126 :: 48 {<Brick 572>} {<Brick 193>}
+126 :: 169 {<Brick 343>, <Brick 1065>} {<Brick 704>}
+126 :: 980 set() {<Brick 904>}
+126 :: 1108 {<Brick 342>} {<Brick 325>}
+126 :: 850 {<Brick 885>} {<Brick 904>, <Brick 325>}
+126 :: 894 {<Brick 1287>} {<Brick 888>}
+126 :: 1092 {<Brick 68>, <Brick 154>} {<Brick 193>}
+126 :: 1229 set() {<Brick 468>}
+127 :: 61 set() {<Brick 433>}
+127 :: 350 {<Brick 321>} {<Brick 684>}
+127 :: 680 set() {<Brick 433>}
+127 :: 802 set() {<Brick 684>}
+127 :: 849 {<Brick 213>} {<Brick 1334>}
+127 :: 342 {<Brick 271>} {<Brick 1108>}
+127 :: 572 {<Brick 105>} {<Brick 48>, <Brick 1334>}
+127 :: 154 {<Brick 608>} {<Brick 1092>}
+127 :: 343 {<Brick 1082>} {<Brick 169>}
+127 :: 1179 set() {<Brick 1334>}
+127 :: 1287 {<Brick 1173>} {<Brick 894>}
+127 :: 885 {<Brick 321>, <Brick 846>, <Brick 475>} {<Brick 850>}
+127 :: 1065 {<Brick 1173>} {<Brick 1118>, <Brick 169>}
+127 :: 1229 set() {<Brick 468>}
+127 :: 68 {<Brick 613>} {<Brick 1092>}
+128 :: 680 set() {<Brick 433>}
+128 :: 849 {<Brick 213>} {<Brick 1334>}
+128 :: 105 {<Brick 369>, <Brick 260>} {<Brick 572>}
+128 :: 271 set() {<Brick 342>}
+128 :: 1082 {<Brick 982>} {<Brick 343>}
+128 :: 321 {<Brick 997>} {<Brick 350>, <Brick 885>}
+128 :: 608 {<Brick 1016>} {<Brick 154>}
+128 :: 846 {<Brick 332>, <Brick 602>, <Brick 958>} {<Brick 885>}
+128 :: 475 {<Brick 592>, <Brick 1333>, <Brick 1383>} {<Brick 885>}
+128 :: 1173 {<Brick 640>, <Brick 1306>} {<Brick 1287>, <Brick 1065>}
+128 :: 613 {<Brick 909>, <Brick 563>} {<Brick 68>}
+129 :: 680 set() {<Brick 433>}
+129 :: 260 set() {<Brick 105>}
+129 :: 213 {<Brick 1000>} {<Brick 849>}
+129 :: 369 set() {<Brick 105>}
+129 :: 332 set() {<Brick 846>}
+129 :: 602 set() {<Brick 846>}
+129 :: 982 set() {<Brick 1082>}
+129 :: 640 {<Brick 1031>} {<Brick 1173>}
+129 :: 1306 set() {<Brick 1173>}
+129 :: 592 {<Brick 22>, <Brick 490>, <Brick 706>} {<Brick 475>}
+129 :: 909 set() {<Brick 613>}
+129 :: 958 {<Brick 1376>} {<Brick 846>}
+129 :: 997 set() {<Brick 321>}
+129 :: 1016 {<Brick 706>, <Brick 459>} {<Brick 608>}
+129 :: 1383 {<Brick 162>} {<Brick 475>}
+129 :: 563 {<Brick 1090>, <Brick 459>} {<Brick 613>}
+129 :: 1333 {<Brick 1023>, <Brick 347>} {<Brick 475>}
+130 :: 260 set() {<Brick 105>}
+130 :: 602 set() {<Brick 846>}
+130 :: 1000 {<Brick 277>} {<Brick 213>}
+130 :: 1031 {<Brick 185>} {<Brick 640>}
+130 :: 1383 {<Brick 162>} {<Brick 475>}
+130 :: 490 {<Brick 1020>} {<Brick 592>}
+130 :: 706 {<Brick 574>} {<Brick 592>, <Brick 1016>}
+130 :: 1376 set() {<Brick 958>}
+130 :: 347 {<Brick 462>, <Brick 1110>} {<Brick 1333>}
+130 :: 1090 {<Brick 129>} {<Brick 563>}
+130 :: 22 {<Brick 503>, <Brick 1418>} {<Brick 592>}
+130 :: 459 {<Brick 168>} {<Brick 1016>, <Brick 563>}
+130 :: 1023 {<Brick 367>} {<Brick 1333>}
+131 :: 602 set() {<Brick 846>}
+131 :: 1383 {<Brick 162>} {<Brick 475>}
+131 :: 277 {<Brick 128>, <Brick 1204>} {<Brick 1000>}
+131 :: 1376 set() {<Brick 958>}
+131 :: 574 {<Brick 1146>} {<Brick 706>}
+131 :: 1090 {<Brick 129>} {<Brick 563>}
+131 :: 185 set() {<Brick 1031>}
+131 :: 1020 set() {<Brick 490>}
+131 :: 1110 {<Brick 996>} {<Brick 347>}
+131 :: 367 set() {<Brick 1023>}
+131 :: 503 {<Brick 555>} {<Brick 22>}
+131 :: 168 set() {<Brick 459>}
+131 :: 462 {<Brick 172>} {<Brick 347>}
+131 :: 1418 set() {<Brick 22>}
+132 :: 1383 {<Brick 162>} {<Brick 475>}
+132 :: 1376 set() {<Brick 958>}
+132 :: 128 set() {<Brick 277>}
+132 :: 1204 set() {<Brick 277>}
+132 :: 1146 {<Brick 550>} {<Brick 574>}
+132 :: 168 set() {<Brick 459>}
+132 :: 129 {<Brick 93>} {<Brick 1090>}
+132 :: 996 {<Brick 530>} {<Brick 1110>}
+132 :: 172 {<Brick 336>} {<Brick 462>}
+132 :: 555 {<Brick 1299>} {<Brick 503>}
+133 :: 1376 set() {<Brick 958>}
+133 :: 168 set() {<Brick 459>}
+133 :: 550 set() {<Brick 1146>}
+133 :: 162 {<Brick 1180>, <Brick 101>} {<Brick 1383>}
+133 :: 996 {<Brick 530>} {<Brick 1110>}
+133 :: 1299 set() {<Brick 555>}
+133 :: 93 {<Brick 144>, <Brick 938>, <Brick 486>} {<Brick 129>}
+133 :: 336 {<Brick 1258>, <Brick 1100>} {<Brick 172>}
+134 :: 996 {<Brick 530>} {<Brick 1110>}
+134 :: 1180 {<Brick 405>, <Brick 363>} {<Brick 162>}
+134 :: 101 {<Brick 636>, <Brick 363>, <Brick 478>} {<Brick 162>}
+134 :: 1100 {<Brick 1209>} {<Brick 336>}
+134 :: 144 set() {<Brick 93>}
+134 :: 486 {<Brick 284>, <Brick 1061>} {<Brick 93>}
+134 :: 938 {<Brick 1035>} {<Brick 93>}
+134 :: 1258 {<Brick 965>, <Brick 436>} {<Brick 336>}
+135 :: 405 {<Brick 1191>, <Brick 819>} {<Brick 1180>}
+135 :: 636 {<Brick 952>, <Brick 527>} {<Brick 101>}
+135 :: 478 set() {<Brick 101>}
+135 :: 530 {<Brick 150>} {<Brick 996>}
+135 :: 363 {<Brick 1441>} {<Brick 1180>, <Brick 101>}
+135 :: 1209 {<Brick 239>} {<Brick 1100>}
+135 :: 284 {<Brick 1426>, <Brick 779>} {<Brick 486>}
+135 :: 436 {<Brick 329>, <Brick 952>, <Brick 927>} {<Brick 1258>}
+135 :: 965 {<Brick 1149>, <Brick 927>} {<Brick 1258>}
+135 :: 1035 {<Brick 1426>} {<Brick 938>}
+135 :: 1061 {<Brick 779>} {<Brick 486>}
+136 :: 1191 {<Brick 1195>, <Brick 467>} {<Brick 405>}
+136 :: 527 set() {<Brick 636>}
+136 :: 530 {<Brick 150>} {<Brick 996>}
+136 :: 819 set() {<Brick 405>}
+136 :: 1441 {<Brick 217>, <Brick 1037>} {<Brick 363>}
+136 :: 239 {<Brick 918>} {<Brick 1209>}
+136 :: 1149 {<Brick 590>} {<Brick 965>}
+136 :: 329 {<Brick 590>} {<Brick 436>}
+136 :: 779 {<Brick 1200>, <Brick 1085>, <Brick 627>} {<Brick 284>, <Brick 1061>}
+136 :: 927 set() {<Brick 965>, <Brick 436>}
+136 :: 952 {<Brick 378>} {<Brick 636>, <Brick 436>}
+136 :: 1426 {<Brick 617>} {<Brick 284>, <Brick 1035>}
+137 :: 467 {<Brick 809>, <Brick 1011>} {<Brick 1191>}
+137 :: 530 {<Brick 150>} {<Brick 996>}
+137 :: 819 set() {<Brick 405>}
+137 :: 1195 {<Brick 1440>, <Brick 809>, <Brick 1011>} {<Brick 1191>}
+137 :: 217 {<Brick 1303>} {<Brick 1441>}
+137 :: 918 {<Brick 914>} {<Brick 239>}
+137 :: 1037 {<Brick 578>} {<Brick 1441>}
+137 :: 590 set() {<Brick 329>, <Brick 1149>}
+137 :: 1085 {<Brick 912>} {<Brick 779>}
+137 :: 378 {<Brick 275>} {<Brick 952>}
+137 :: 617 {<Brick 1162>, <Brick 1335>} {<Brick 1426>}
+137 :: 627 set() {<Brick 779>}
+137 :: 1200 {<Brick 1277>, <Brick 383>} {<Brick 779>}
+138 :: 809 {<Brick 1181>} {<Brick 1195>, <Brick 467>}
+138 :: 150 {<Brick 206>} {<Brick 530>}
+138 :: 1011 {<Brick 323>, <Brick 1291>} {<Brick 1195>, <Brick 467>}
+138 :: 1440 {<Brick 736>} {<Brick 1195>}
+138 :: 914 {<Brick 183>} {<Brick 918>}
+138 :: 1303 {<Brick 323>} {<Brick 217>}
+138 :: 578 {<Brick 1240>, <Brick 232>} {<Brick 1037>}
+138 :: 627 set() {<Brick 779>}
+138 :: 912 {<Brick 279>} {<Brick 1085>}
+138 :: 275 set() {<Brick 378>}
+138 :: 1162 set() {<Brick 617>}
+138 :: 1335 {<Brick 1360>} {<Brick 617>}
+138 :: 383 set() {<Brick 1200>}
+138 :: 1277 {<Brick 943>} {<Brick 1200>}
+139 :: 1181 {<Brick 316>} {<Brick 809>}
+139 :: 1291 set() {<Brick 1011>}
+139 :: 206 {<Brick 1364>} {<Brick 150>}
+139 :: 627 set() {<Brick 779>}
+139 :: 736 {<Brick 1374>} {<Brick 1440>}
+139 :: 183 {<Brick 584>, <Brick 841>} {<Brick 914>}
+139 :: 232 set() {<Brick 578>}
+139 :: 323 {<Brick 359>} {<Brick 1303>, <Brick 1011>}
+139 :: 279 set() {<Brick 912>}
+139 :: 1240 {<Brick 1047>} {<Brick 578>}
+139 :: 943 {<Brick 776>} {<Brick 1277>}
+139 :: 1360 {<Brick 1190>, <Brick 175>, <Brick 344>} {<Brick 1335>}
+140 :: 1291 set() {<Brick 1011>}
+140 :: 316 {<Brick 496>, <Brick 830>} {<Brick 1181>}
+140 :: 627 set() {<Brick 779>}
+140 :: 1364 {<Brick 582>} {<Brick 206>}
+140 :: 584 {<Brick 1365>} {<Brick 183>}
+140 :: 1374 set() {<Brick 736>}
+140 :: 841 {<Brick 516>} {<Brick 183>}
+140 :: 1240 {<Brick 1047>} {<Brick 578>}
+140 :: 359 {<Brick 876>} {<Brick 323>}
+140 :: 943 {<Brick 776>} {<Brick 1277>}
+140 :: 1190 {<Brick 718>} {<Brick 1360>}
+140 :: 175 {<Brick 960>, <Brick 746>} {<Brick 1360>}
+140 :: 344 set() {<Brick 1360>}
+141 :: 830 {<Brick 166>, <Brick 810>} {<Brick 316>}
+141 :: 1374 set() {<Brick 736>}
+141 :: 496 {<Brick 630>} {<Brick 316>}
+141 :: 1240 {<Brick 1047>} {<Brick 578>}
+141 :: 1365 {<Brick 488>} {<Brick 584>}
+141 :: 582 set() {<Brick 1364>}
+141 :: 943 {<Brick 776>} {<Brick 1277>}
+141 :: 516 set() {<Brick 841>}
+141 :: 718 {<Brick 939>} {<Brick 1190>}
+141 :: 876 {<Brick 21>} {<Brick 359>}
+141 :: 960 {<Brick 1356>} {<Brick 175>}
+141 :: 746 {<Brick 737>} {<Brick 175>}
+142 :: 166 {<Brick 465>} {<Brick 830>}
+142 :: 1240 {<Brick 1047>} {<Brick 578>}
+142 :: 810 {<Brick 39>} {<Brick 830>}
+142 :: 943 {<Brick 776>} {<Brick 1277>}
+142 :: 630 {<Brick 25>} {<Brick 496>}
+142 :: 488 {<Brick 983>} {<Brick 1365>}
+142 :: 718 {<Brick 939>} {<Brick 1190>}
+142 :: 21 {<Brick 760>, <Brick 1121>} {<Brick 876>}
+142 :: 1356 {<Brick 1117>, <Brick 1355>} {<Brick 960>}
+142 :: 737 {<Brick 1355>, <Brick 823>} {<Brick 746>}
+143 :: 465 {<Brick 1086>, <Brick 722>, <Brick 205>} {<Brick 166>}
+143 :: 718 {<Brick 939>} {<Brick 1190>}
+143 :: 25 {<Brick 147>} {<Brick 630>}
+143 :: 39 set() {<Brick 810>}
+143 :: 983 {<Brick 23>} {<Brick 488>}
+143 :: 1047 set() {<Brick 1240>}
+143 :: 776 {<Brick 712>} {<Brick 943>}
+143 :: 1121 {<Brick 720>} {<Brick 21>}
+143 :: 1117 {<Brick 589>} {<Brick 1356>}
+143 :: 760 set() {<Brick 21>}
+143 :: 823 set() {<Brick 737>}
+143 :: 1355 {<Brick 1076>} {<Brick 1356>, <Brick 737>}
+144 :: 722 {<Brick 977>} {<Brick 465>}
+144 :: 1086 set() {<Brick 465>}
+144 :: 205 {<Brick 333>} {<Brick 465>}
+144 :: 23 set() {<Brick 983>}
+144 :: 147 set() {<Brick 25>}
+144 :: 712 {<Brick 249>, <Brick 454>} {<Brick 776>}
+144 :: 939 set() {<Brick 718>}
+144 :: 720 {<Brick 1128>} {<Brick 1121>}
+144 :: 823 set() {<Brick 737>}
+144 :: 589 {<Brick 1012>} {<Brick 1117>}
+144 :: 1076 {<Brick 1419>} {<Brick 1355>}
+145 :: 977 {<Brick 461>} {<Brick 722>}
+145 :: 333 {<Brick 892>} {<Brick 205>}
+145 :: 454 {<Brick 431>} {<Brick 712>}
+145 :: 249 {<Brick 237>} {<Brick 712>}
+145 :: 1012 {<Brick 98>, <Brick 1286>} {<Brick 589>}
+145 :: 1128 {<Brick 1388>} {<Brick 720>}
+145 :: 1419 {<Brick 1273>, <Brick 765>} {<Brick 1076>}
+146 :: 461 {<Brick 768>} {<Brick 977>}
+146 :: 892 {<Brick 3>} {<Brick 333>}
+146 :: 431 {<Brick 1330>, <Brick 789>, <Brick 286>} {<Brick 454>}
+146 :: 98 {<Brick 70>} {<Brick 1012>}
+146 :: 237 {<Brick 292>} {<Brick 249>}
+146 :: 1286 {<Brick 70>, <Brick 43>} {<Brick 1012>}
+146 :: 1388 set() {<Brick 1128>}
+146 :: 765 {<Brick 70>, <Brick 43>, <Brick 151>} {<Brick 1419>}
+146 :: 1273 set() {<Brick 1419>}
+147 :: 768 set() {<Brick 461>}
+147 :: 892 {<Brick 3>} {<Brick 333>}
+147 :: 286 {<Brick 303>} {<Brick 431>}
+147 :: 789 {<Brick 377>} {<Brick 431>}
+147 :: 1330 {<Brick 1212>} {<Brick 431>}
+147 :: 292 set() {<Brick 237>}
+147 :: 151 {<Brick 1022>, <Brick 806>} {<Brick 765>}
+147 :: 43 {<Brick 420>} {<Brick 1286>, <Brick 765>}
+147 :: 70 {<Brick 328>} {<Brick 98>, <Brick 1286>, <Brick 765>}
+148 :: 892 {<Brick 3>} {<Brick 333>}
+148 :: 303 {<Brick 1439>} {<Brick 286>}
+148 :: 1212 {<Brick 1145>} {<Brick 1330>}
+148 :: 377 {<Brick 585>, <Brick 170>, <Brick 1439>} {<Brick 789>}
+148 :: 806 {<Brick 252>} {<Brick 151>}
+148 :: 1022 {<Brick 1122>} {<Brick 151>}
+148 :: 420 {<Brick 623>, <Brick 855>} {<Brick 43>}
+148 :: 328 {<Brick 1309>} {<Brick 70>}
+149 :: 892 {<Brick 3>} {<Brick 333>}
+149 :: 1145 {<Brick 407>, <Brick 848>, <Brick 318>} {<Brick 1212>}
+149 :: 585 set() {<Brick 377>}
+149 :: 1439 set() {<Brick 377>, <Brick 303>}
+149 :: 170 {<Brick 33>} {<Brick 377>}
+149 :: 252 set() {<Brick 806>}
+149 :: 1122 {<Brick 236>, <Brick 1359>, <Brick 1354>} {<Brick 1022>}
+149 :: 623 set() {<Brick 420>}
+149 :: 855 set() {<Brick 420>}
+149 :: 1309 {<Brick 1421>} {<Brick 328>}
+150 :: 3 set() {<Brick 892>}
+150 :: 318 {<Brick 538>} {<Brick 1145>}
+150 :: 848 {<Brick 33>} {<Brick 1145>}
+150 :: 170 {<Brick 33>} {<Brick 377>}
+150 :: 407 {<Brick 685>, <Brick 534>} {<Brick 1145>}
+150 :: 252 set() {<Brick 806>}
+150 :: 1354 set() {<Brick 1122>}
+150 :: 1359 set() {<Brick 1122>}
+150 :: 236 {<Brick 1129>} {<Brick 1122>}
+150 :: 1421 {<Brick 127>} {<Brick 1309>}
+151 :: 534 {<Brick 1008>} {<Brick 407>}
+151 :: 538 {<Brick 1187>, <Brick 1222>, <Brick 142>, <Brick 443>} {<Brick 318>}
+151 :: 685 {<Brick 1342>, <Brick 1008>} {<Brick 407>}
+151 :: 1354 set() {<Brick 1122>}
+151 :: 1359 set() {<Brick 1122>}
+151 :: 33 {<Brick 993>} {<Brick 848>, <Brick 170>}
+151 :: 1129 set() {<Brick 236>}
+151 :: 127 {<Brick 700>, <Brick 449>} {<Brick 1421>}
+152 :: 142 {<Brick 871>} {<Brick 538>}
+152 :: 1354 set() {<Brick 1122>}
+152 :: 443 {<Brick 1211>} {<Brick 538>}
+152 :: 1008 {<Brick 1208>, <Brick 871>} {<Brick 685>, <Brick 534>}
+152 :: 1187 {<Brick 1130>, <Brick 1243>} {<Brick 538>}
+152 :: 1222 {<Brick 244>} {<Brick 538>}
+152 :: 1342 {<Brick 1407>, <Brick 871>} {<Brick 685>}
+152 :: 993 {<Brick 957>, <Brick 141>} {<Brick 33>}
+152 :: 449 set() {<Brick 127>}
+152 :: 700 {<Brick 1130>, <Brick 1243>} {<Brick 127>}
+153 :: 1354 set() {<Brick 1122>}
+153 :: 244 {<Brick 489>} {<Brick 1222>}
+153 :: 1208 {<Brick 1073>} {<Brick 1008>}
+153 :: 871 {<Brick 970>} {<Brick 1342>, <Brick 1008>, <Brick 142>}
+153 :: 957 {<Brick 522>} {<Brick 993>}
+153 :: 1211 {<Brick 541>} {<Brick 443>}
+153 :: 1407 {<Brick 974>} {<Brick 1342>}
+153 :: 141 {<Brick 1073>} {<Brick 993>}
+153 :: 1243 {<Brick 934>, <Brick 1103>} {<Brick 700>, <Brick 1187>}
+153 :: 1130 set() {<Brick 700>, <Brick 1187>}
+154 :: 489 {<Brick 187>} {<Brick 244>}
+154 :: 522 {<Brick 1274>} {<Brick 957>}
+154 :: 541 {<Brick 566>} {<Brick 1211>}
+154 :: 970 {<Brick 865>, <Brick 62>} {<Brick 871>}
+154 :: 974 set() {<Brick 1407>}
+154 :: 1073 {<Brick 1274>, <Brick 1109>, <Brick 1346>} {<Brick 1208>, <Brick 141>}
+154 :: 934 {<Brick 388>} {<Brick 1243>}
+154 :: 1103 {<Brick 1266>, <Brick 59>} {<Brick 1243>}
+155 :: 187 {<Brick 429>, <Brick 843>, <Brick 191>} {<Brick 489>}
+155 :: 566 {<Brick 1429>} {<Brick 541>}
+155 :: 62 set() {<Brick 970>}
+155 :: 1109 {<Brick 191>} {<Brick 1073>}
+155 :: 1274 {<Brick 289>} {<Brick 1073>, <Brick 522>}
+155 :: 1346 {<Brick 675>} {<Brick 1073>}
+155 :: 865 set() {<Brick 970>}
+155 :: 388 {<Brick 1302>, <Brick 296>} {<Brick 934>}
+155 :: 59 set() {<Brick 1103>}
+155 :: 1266 {<Brick 80>} {<Brick 1103>}
+156 :: 675 set() {<Brick 1346>}
+156 :: 191 set() {<Brick 1109>, <Brick 187>}
+156 :: 429 set() {<Brick 187>}
+156 :: 843 {<Brick 396>, <Brick 330>, <Brick 1351>} {<Brick 187>}
+156 :: 1429 {<Brick 330>} {<Brick 566>}
+156 :: 289 set() {<Brick 1274>}
+156 :: 1302 {<Brick 544>, <Brick 948>} {<Brick 388>}
+156 :: 1266 {<Brick 80>} {<Brick 1103>}
+156 :: 296 set() {<Brick 388>}
+157 :: 396 {<Brick 374>} {<Brick 843>}
+157 :: 1351 {<Brick 1124>, <Brick 117>} {<Brick 843>}
+157 :: 330 {<Brick 374>} {<Brick 1429>, <Brick 843>}
+157 :: 1266 {<Brick 80>} {<Brick 1103>}
+157 :: 544 set() {<Brick 1302>}
+157 :: 948 set() {<Brick 1302>}
+158 :: 117 {<Brick 1057>, <Brick 1226>} {<Brick 1351>}
+158 :: 1124 set() {<Brick 1351>}
+158 :: 1266 {<Brick 80>} {<Brick 1103>}
+158 :: 374 set() {<Brick 396>, <Brick 330>}
+159 :: 1226 set() {<Brick 117>}
+159 :: 1057 set() {<Brick 117>}
+159 :: 80 {<Brick 4>, <Brick 38>} {<Brick 1266>}
+160 :: 4 set() {<Brick 80>}
+160 :: 38 set() {<Brick 80>}
+Length of stack: 161
+Part One Input: 427
